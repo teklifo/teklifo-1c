@@ -42,5 +42,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.TK_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
 </mdclass:Configuration>
