@@ -30,7 +30,7 @@
 	
 	Заголовки = Новый Соответствие;
 	Заголовки.Вставить("Content-Type", "application/x-www-form-urlencoded");
-	Заголовки.Вставить("Cookie", СтруктураТокенов.ТокенИзCookie); 
+	Заголовки.Вставить("Cookie", "NEXT_LOCALE=ru;" + СтруктураТокенов.ТокенИзCookie); 
 
 	Ресурс = "api/auth/signin/email";
 
