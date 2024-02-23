@@ -43,5 +43,6 @@
   </languages>
   <roles>Role.TK_ОсновнаяРоль</roles>
   <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
+  <catalogs>Catalog.Организации</catalogs>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
 </mdclass:Configuration>
