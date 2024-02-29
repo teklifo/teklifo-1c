@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eaaed021-07f1-41f1-aabb-f3018c9e7193">
+  <producedTypes>
+    <selectionType typeId="1cc3c27d-d392-413b-8e8c-6240d990e841" valueTypeId="e41ee99d-dddc-4808-aa30-fd1b5bbf13d0"/>
+    <listType typeId="2742e18d-9eec-46b8-8126-ea528ec8e46b" valueTypeId="143e5326-fe91-4049-940a-59d8cc122e59"/>
+    <managerType typeId="39d93426-506a-41fc-a056-b9e236b63a7a" valueTypeId="c0c50ef9-209b-4d2d-bc0b-d899b8425221"/>
+    <recordSetType typeId="1ce982a3-3701-4497-b2bb-e6b5ba21cdef" valueTypeId="bb9c87e0-d8d2-4ddf-96fd-e6db4e91ab5c"/>
+    <recordKeyType typeId="6cb9688d-0017-4c47-b51a-22743880d9e4" valueTypeId="53883c97-9070-40a2-b841-d2f3516753c1"/>
+    <recordType typeId="de149134-4613-4ea2-869a-451011aa155b" valueTypeId="c52a5d59-f8be-490e-b821-655a1ef6438e"/>
+    <recordManagerType typeId="584abac4-d13b-4ec4-9076-6b331ac2a0b2" valueTypeId="d93b4bdc-3b6a-4506-a5d5-c2c66fa26b75"/>
+  </producedTypes>
+  <name>TK_СоответствияОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия организаций (Teklifo)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="364e88b1-060c-4ce7-b7bc-aadb3f6d22c6">
+    <name>ОрганизацияНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация на сайте</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="049cb6e9-9fb9-4b1e-bc3d-427b2103c3de">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TK_УчетныеЗаписиНаСайте</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c90c1c1e-a4a5-4d32-b173-d7356e169133">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

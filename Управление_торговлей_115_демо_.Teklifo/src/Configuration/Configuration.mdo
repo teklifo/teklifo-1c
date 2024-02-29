@@ -43,5 +43,9 @@
   </languages>
   <roles>Role.TK_ОсновнаяРоль</roles>
   <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
+  <definedTypes>DefinedType.ИНН</definedTypes>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.TK_УчетныеЗаписиНаСайте</catalogs>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
+  <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
 </mdclass:Configuration>
