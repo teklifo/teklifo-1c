@@ -611,55 +611,6 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ТаблицаОрганизацийДанныеОрганизации</name>
-          <id>59</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ТаблицаОрганизаций.ДанныеОрганизации</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ТаблицаОрганизацийДанныеОрганизацииРасширеннаяПодсказка</name>
-            <id>61</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ТаблицаОрганизацийДанныеОрганизацииКонтекстноеМеню</name>
-            <id>60</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
         <autoCommandBar>
           <name>ТаблицаОрганизацийКоманднаяПанель</name>
           <id>41</id>
@@ -1564,21 +1515,6 @@
       </edit>
     </columns>
     <columns>
-      <name>ДанныеОрганизации</name>
-      <title>
-        <key>ru</key>
-        <value>Данные организации</value>
-      </title>
-      <id>9</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>ИННОрганизации</name>
       <title>
         <key>ru</key>
@@ -1751,6 +1687,23 @@
     <id>21</id>
     <valueType>
       <types>CatalogRef.Организации</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>УчетнаяЗапись</name>
+    <title>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </title>
+    <id>22</id>
+    <valueType>
+      <types>CatalogRef.TK_УчетныеЗаписиНаСайте</types>
     </valueType>
     <view>
       <common>true</common>
