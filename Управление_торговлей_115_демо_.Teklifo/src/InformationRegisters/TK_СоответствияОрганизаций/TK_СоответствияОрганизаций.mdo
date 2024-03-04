@@ -25,7 +25,9 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
