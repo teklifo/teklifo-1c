@@ -46,6 +46,11 @@
   <definedTypes>DefinedType.ИНН</definedTypes>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.TK_УчетныеЗаписиНаСайте</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.TK_ЗапросЦенПоставщиков</documents>
+  <enums>Enum.TK_ТипыЗапроса</enums>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
 </mdclass:Configuration>
