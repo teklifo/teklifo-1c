@@ -7,13 +7,13 @@
     <listType typeId="d30214c2-af17-4dca-9aa4-e06a139369a3" valueTypeId="a05437a8-1720-4e5e-9154-66ee13c303ec"/>
     <managerType typeId="65737d8c-d5ef-40da-8c4f-350c4e4e031f" valueTypeId="32d7b315-e1cb-415b-8e03-4931cbbe6bbf"/>
   </producedTypes>
-  <name>TK_ЗапросЦенПоставщиков</name>
+  <name>TK_ЗапросЦенПоставщикам</name>
   <synonym>
     <key>ru</key>
-    <value>Запрос цен поставщиков</value>
+    <value>Запрос цен поставщикам</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.TK_ЗапросЦенПоставщиков.StandardAttribute.Number</inputByString>
+  <inputByString>Document.TK_ЗапросЦенПоставщикам.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
@@ -22,7 +22,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.TK_ЗапросЦенПоставщиков.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.TK_ЗапросЦенПоставщикам.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.TK_ЗапросЦенПоставщикам.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1082bc6a-8306-408a-8c19-bbc0fca46d00">
@@ -181,7 +182,9 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.TK_ТипыЗапроса.EnumValue.Публичный</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -190,6 +193,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8549eeab-34ee-4057-a55e-d7b84004d4be">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
