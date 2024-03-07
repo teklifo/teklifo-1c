@@ -35,7 +35,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="049cb6e9-9fb9-4b1e-bc3d-427b2103c3de">
+  <resources uuid="aaa5e06e-5e78-4e98-b51e-a77615aee89f">
     <name>УчетнаяЗапись</name>
     <synonym>
       <key>ru</key>
@@ -50,9 +50,7 @@
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
-    <mainFilter>true</mainFilter>
-  </dimensions>
+  </resources>
   <dimensions uuid="c90c1c1e-a4a5-4d32-b173-d7356e169133">
     <name>Организация</name>
     <synonym>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d4b6dc7-ec51-41fa-87e4-16d6ebad75e6">
+  <producedTypes>
+    <refType typeId="e50e99ae-899e-48fa-8636-342f571911fa" valueTypeId="4bae28df-59a6-4295-ae84-e9e233d31fa2"/>
+    <listType typeId="d5f308d9-6c5f-466c-8fe6-79870a487cc0" valueTypeId="e34e7304-1824-4bb5-9105-3e580901f4e8"/>
+    <managerType typeId="64d938a0-4cfb-48b2-a5f9-44b450825042" valueTypeId="bdf9131b-f3f7-4b4c-b22d-60be2a930ca4"/>
+  </producedTypes>
+  <name>TK_ТипыЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы запроса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd329c87-5d73-4dfb-a2af-5a856a22e00f">
+    <name>Публичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публичный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbf2a0d3-1a95-4977-8004-dc4f9b60ec16">
+    <name>Закрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
