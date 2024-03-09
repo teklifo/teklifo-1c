@@ -55,6 +55,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
   <enums>Enum.TK_ТипыЗапроса</enums>
+  <enums>Enum.TK_СтатусыДокументаЗапросЦенПоставщикам</enums>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
 </mdclass:Configuration>
