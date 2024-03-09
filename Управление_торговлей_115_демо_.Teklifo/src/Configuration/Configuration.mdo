@@ -53,6 +53,8 @@
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Марки</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
   <enums>Enum.TK_ТипыЗапроса</enums>
   <enums>Enum.TK_СтатусыДокументаЗапросЦенПоставщикам</enums>
