@@ -60,4 +60,5 @@
   <enums>Enum.TK_СтатусыДокументаЗапросЦенПоставщикам</enums>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СоответствияНоменклатуры</informationRegisters>
 </mdclass:Configuration>
