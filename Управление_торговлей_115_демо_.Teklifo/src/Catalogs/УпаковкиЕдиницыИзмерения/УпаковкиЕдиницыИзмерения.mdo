@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1fdd327-4782-45ef-adb5-c2d3480c20f3" extendedConfigurationObject="c9cda7a7-da6f-4830-800a-70e77e3f6e9d">
+  <producedTypes>
+    <objectType typeId="abb362f0-d437-4cb5-aabb-f4f7a0fe1780" valueTypeId="aad805bd-22ee-4aaf-afc3-9c1ab4ea3ca5"/>
+    <refType typeId="ad558659-f8d4-4454-b399-6f927a29a5e7" valueTypeId="d9bc1537-231e-4588-905d-6e721972f2ad"/>
+    <selectionType typeId="3c32f10a-a745-45cc-9328-ba909c17d1f2" valueTypeId="00a61c77-405f-409c-b3af-9dd83b0337e1"/>
+    <listType typeId="9b8b508c-5c6b-4b78-b270-bd4bb0f52398" valueTypeId="1cd8511a-d8e3-4865-acb9-c1909162525d"/>
+    <managerType typeId="b43642e1-403f-4b69-b7a5-32228a2cc9a9" valueTypeId="c76b4a06-78fb-43cf-9d39-c82e588020a6"/>
+  </producedTypes>
+  <name>УпаковкиЕдиницыИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Catalog>
