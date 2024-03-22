@@ -43,10 +43,12 @@
   </languages>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
+  <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
   <roles>Role.TK_ОсновнаяРоль</roles>
   <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
+  <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.TK_УчетныеЗаписиНаСайте</catalogs>
@@ -61,4 +63,6 @@
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствияНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СоответствияДокументовЗапросаЦенПоставщикам</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтатусыДокументовИнтеграции</informationRegisters>
 </mdclass:Configuration>

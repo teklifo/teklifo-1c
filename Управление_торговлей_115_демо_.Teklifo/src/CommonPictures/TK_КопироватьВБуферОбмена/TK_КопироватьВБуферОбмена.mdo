@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47a6407e-4775-4472-b983-b53f3ac07cd4">
+  <name>TK_КопироватьВБуферОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копировать в буфер обмена</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -189,23 +189,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8e66e976-f72c-4654-8125-ce42050e9f5f">
-    <name>СтатусДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус документа</value>
-    </synonym>
-    <type>
-      <types>EnumRef.TK_СтатусыДокументаЗапросЦенПоставщикам</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.TK_СтатусыДокументаЗапросЦенПоставщикам.EnumValue.НеОпубликован</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="70756a96-4a36-4d2f-8052-1a7dfea54732">
     <name>ФормаДокумента</name>
     <synonym>
@@ -220,6 +203,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="985543ce-50c1-4608-94c4-4be44ed24e3b">
+    <name>ФормаРезультатаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выгрузки</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
