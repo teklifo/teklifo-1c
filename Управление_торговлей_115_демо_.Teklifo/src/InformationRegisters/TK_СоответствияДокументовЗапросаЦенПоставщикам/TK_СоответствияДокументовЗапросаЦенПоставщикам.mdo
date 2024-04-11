@@ -18,15 +18,33 @@
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="30c95790-11d5-4b85-82d4-de4a4ea3b2a5">
-    <name>ВнешнийİD</name>
+    <name>ВнешнийID</name>
     <synonym>
       <key>ru</key>
-      <value>Внешний İD</value>
+      <value>Внешний ID</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6ead8983-ce0b-410c-af26-a8ad2a1ab5d4">
+    <name>number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
