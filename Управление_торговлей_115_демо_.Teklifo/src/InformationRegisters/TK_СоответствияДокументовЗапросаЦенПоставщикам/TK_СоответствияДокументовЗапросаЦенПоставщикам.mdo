@@ -53,6 +53,39 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="f75db09a-f0e6-40db-8a13-6a19acfa9db4">
+    <name>VersionId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Version id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1be35be0-eea5-4a90-85eb-6a68af36e340">
+    <name>LatestVersion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Latest version</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="3d364f17-4bbe-4e1c-a131-d8603c7078a7">
     <name>ДокументЗапроса</name>
     <synonym>

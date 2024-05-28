@@ -26,13 +26,32 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>256</length>
+        <length>1000</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5807b60a-776f-4b2d-86ff-a67f67c11221">
+    <name>VersionId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Version id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="6caaf71d-ae23-4036-9e19-b2bda2c0ca5b">
     <name>ДокументЗапроса</name>
