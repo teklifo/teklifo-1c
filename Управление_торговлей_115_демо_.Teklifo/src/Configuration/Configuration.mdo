@@ -58,6 +58,7 @@
   <catalogs>Catalog.Марки</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
+  <documents>Document.TK_ЗапросЦенОтКлиента</documents>
   <enums>Enum.TK_ТипыЗапроса</enums>
   <enums>Enum.TK_СтатусыДокументаЗапросЦенПоставщикам</enums>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
