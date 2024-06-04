@@ -57,6 +57,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Марки</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
   <documents>Document.TK_ЗапросЦенОтКлиента</documents>
   <enums>Enum.TK_ТипыЗапроса</enums>
