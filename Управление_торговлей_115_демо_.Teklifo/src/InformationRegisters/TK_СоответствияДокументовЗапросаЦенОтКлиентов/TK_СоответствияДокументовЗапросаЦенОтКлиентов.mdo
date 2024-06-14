@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2daa59c9-3ed9-4abc-b81c-e6ec07315ebe">
+  <producedTypes>
+    <selectionType typeId="e6b0c797-9deb-4aae-a8e7-184002d312b3" valueTypeId="2842c9e0-4c5d-450b-ab67-bcc3eb918db0"/>
+    <listType typeId="2f5e3f70-32f2-48ff-9944-e023741e6f18" valueTypeId="2d5f5db1-63d7-4df4-bb65-0a4c53219899"/>
+    <managerType typeId="24441c0a-40ca-41af-8606-9f1f8de3ccac" valueTypeId="c1160a92-2c5c-448b-9f95-ae6bc33dfff1"/>
+    <recordSetType typeId="79ba8d8e-9bf9-46f2-b80b-6eebb4ee553c" valueTypeId="ac1b3909-2371-4bdd-b27a-da40444076fc"/>
+    <recordKeyType typeId="a58edf7d-6924-4191-a6d2-5f25d8bb26e2" valueTypeId="397af8a5-7495-43e3-9ebd-8355a6196998"/>
+    <recordType typeId="9b9d2fcd-b157-4250-91c5-6d298a89dd18" valueTypeId="b343198f-480b-48f5-8fe0-2b0e6fcbafa0"/>
+    <recordManagerType typeId="ae95f18e-b7cc-4881-95ee-623f147ea37f" valueTypeId="cfb26d1f-6c49-4478-ac20-3ced468d06ba"/>
+  </producedTypes>
+  <name>TK_СоответствияДокументовЗапросаЦенОтКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия документов запроса цен от клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="24ce7f80-d78f-4734-abe0-782ff4cfb623">
+    <name>ВнешнийID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9a1da3d6-9be6-4eb4-abe8-b635a7d38665">
+    <name>number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4f2ed01f-5880-4f6f-a0af-fa2ae4ab4eaf">
+    <name>VersionId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Version id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="93f0f824-d6a1-4254-ab31-5acc2db58c95">
+    <name>LatestVersion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Latest version</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9198441a-9ce3-4ae9-a735-1953115dd9c6">
+    <name>ДокументЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ запроса</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.TK_ЗапросЦенОтКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
