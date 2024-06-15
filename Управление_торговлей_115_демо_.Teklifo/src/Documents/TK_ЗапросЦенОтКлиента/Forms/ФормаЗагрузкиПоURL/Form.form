@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Организация</name>
     <id>6</id>
@@ -108,6 +108,10 @@
   <items xsi:type="form:Button">
     <name>КомандаВыполнить</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Загрузить</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -130,12 +134,13 @@
     </extendedTooltip>
     <type>UsualButton</type>
     <commandName>Form.Command.КомандаВыполнить</commandName>
-    <representation>Auto</representation>
+    <representation>PictureAndText</representation>
     <defaultButton>true</defaultButton>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <placementArea>UserCmds</placementArea>
     <representationInContextMenu>Auto</representationInContextMenu>
+    <pictureLocation>Right</pictureLocation>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
@@ -204,11 +209,15 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.MoveDown</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаВыполнить</name>
       </handler>
     </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
