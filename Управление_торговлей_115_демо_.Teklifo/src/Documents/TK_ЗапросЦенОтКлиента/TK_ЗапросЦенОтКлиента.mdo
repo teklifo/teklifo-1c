@@ -226,6 +226,21 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <attributes uuid="953035ac-eec0-4fa6-91c5-1b9eac2710d1">
+      <name>Содержание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Содержание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="23957537-0c42-4db8-b08b-47534d22239a">
       <name>Номенклатура</name>
       <synonym>
