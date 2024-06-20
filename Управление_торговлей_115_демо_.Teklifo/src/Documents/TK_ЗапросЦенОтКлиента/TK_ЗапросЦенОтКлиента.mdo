@@ -17,6 +17,14 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Запрос цен от клиента</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Запросы цен от клиентов</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>

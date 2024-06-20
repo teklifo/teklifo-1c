@@ -45,11 +45,11 @@
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
   <roles>Role.TK_ОсновнаяРоль</roles>
-  <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
-  <commonModules>CommonModule.TK_ОбщегоНазначенияСервер</commonModules>
-  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
-  <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.TK_ЗагрузкаИСозданиеДанныхСервер</commonModules>
+  <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.TK_ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
   <definedTypes>DefinedType.УпаковкаНоменклатурыБЭД</definedTypes>
