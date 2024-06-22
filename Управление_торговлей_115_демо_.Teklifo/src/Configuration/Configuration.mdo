@@ -46,9 +46,9 @@
   <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
   <roles>Role.TK_ОсновнаяРоль</roles>
   <commonModules>CommonModule.TK_ЗагрузкаИСозданиеДанныхСервер</commonModules>
+  <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
-  <commonModules>CommonModule.TK_ОбщегоНазначенияСервер</commonModules>
-  <commonModules>CommonModule.TK_РаботаСWeb</commonModules>
+  <commonModules>CommonModule.TK_РаботаСWebВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
@@ -65,8 +65,9 @@
   <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
   <documents>Document.TK_ЗапросЦенОтКлиента</documents>
-  <enums>Enum.TK_ТипыЗапроса</enums>
   <enums>Enum.TK_СтатусыДокументаЗапросЦенПоставщикам</enums>
+  <enums>Enum.TK_ТипыЗапроса</enums>
+  <enums>Enum.КомпанияЧастноеЛицо</enums>
   <dataProcessors>DataProcessor.TK_ОбработкаИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствияНоменклатуры</informationRegisters>

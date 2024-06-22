@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Внешние идентификаторы строк документов</value>
+  </recordPresentation>
   <resources uuid="117d8197-098d-43a2-9aa1-45e8bbbe4834">
     <name>ВнешнийID</name>
     <synonym>
