@@ -26,12 +26,14 @@
     <value>Запросы цен от клиентов</value>
   </listPresentation>
   <numberType>String</numberType>
-  <numberLength>9</numberLength>
-  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.TK_ЗапросЦенОтКлиента.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.TK_ЗапросЦенОтКлиента.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="6d14df8c-7c31-4de0-8657-545b5b3debf5">
@@ -172,12 +174,12 @@
       <value>Тип запроса</value>
     </synonym>
     <type>
-      <types>EnumRef.TK_ТипыЗапроса</types>
+      <types>EnumRef.TK_ТипыЗапросовЦен</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.TK_ТипыЗапроса.EnumValue.Публичный</value>
+      <value>Enum.TK_ТипыЗапросовЦен.EnumValue.Открытый</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

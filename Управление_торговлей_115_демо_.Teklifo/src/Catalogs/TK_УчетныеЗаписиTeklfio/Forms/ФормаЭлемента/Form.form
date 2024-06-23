@@ -226,7 +226,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.TK_УчетныеЗаписиНаСайте</types>
+      <types>CatalogObject.TK_УчетныеЗаписиTeklfio</types>
     </valueType>
     <view>
       <common>true</common>

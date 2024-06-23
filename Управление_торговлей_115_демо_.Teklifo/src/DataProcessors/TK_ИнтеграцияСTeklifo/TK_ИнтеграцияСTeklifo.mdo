@@ -4,13 +4,13 @@
     <objectType typeId="d7bae89a-eded-484d-baeb-87fd6a0e008f" valueTypeId="3122e16d-f4d6-4382-add7-d15928319164"/>
     <managerType typeId="a2f1194a-bd6d-48d3-bdf4-e1d0738358c6" valueTypeId="8fc6df2a-2209-4860-96b8-1c7694d4e63f"/>
   </producedTypes>
-  <name>TK_ОбработкаИнтеграции</name>
+  <name>TK_ИнтеграцияСTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Обработка интеграции</value>
+    <value>Интеграция с Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.TK_ОбработкаИнтеграции.Form.СтартовыйПомощник</defaultForm>
+  <defaultForm>DataProcessor.TK_ИнтеграцияСTeklifo.Form.СтартовыйПомощник</defaultForm>
   <attributes uuid="c5a2d03c-cb60-44c4-86af-b60bcb789db5">
     <name>Email</name>
     <synonym>
@@ -46,4 +46,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="0ef996a0-8b98-44ab-accd-35d7cf3121ec">
+    <name>СтартовыйПомощник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовый помощник</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>

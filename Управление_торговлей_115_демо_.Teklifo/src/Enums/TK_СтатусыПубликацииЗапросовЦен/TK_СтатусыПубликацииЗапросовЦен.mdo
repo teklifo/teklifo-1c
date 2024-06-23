@@ -5,10 +5,10 @@
     <listType typeId="01843287-5de0-4ce9-9e9b-a6b10b5b17d7" valueTypeId="43824127-4394-4672-aefd-756e6e7515be"/>
     <managerType typeId="32ac7a8b-4331-4746-b49b-377db97627fd" valueTypeId="889bd78a-f7a4-47ce-af6f-369502452b3c"/>
   </producedTypes>
-  <name>TK_СтатусыДокументаЗапросЦенПоставщикам</name>
+  <name>TK_СтатусыПубликацииЗапросовЦен</name>
   <synonym>
     <key>ru</key>
-    <value>Статусы документа запрос цен поставщикам</value>
+    <value>Статусы публикации запросов цен</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
@@ -27,10 +27,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="01e91c58-6284-4f99-8db6-8d01807c3175">
-    <name>ТребуетОбновления</name>
+    <name>ТребуетсяОбновление</name>
     <synonym>
       <key>ru</key>
-      <value>Требует обновления</value>
+      <value>Требуется обновление</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

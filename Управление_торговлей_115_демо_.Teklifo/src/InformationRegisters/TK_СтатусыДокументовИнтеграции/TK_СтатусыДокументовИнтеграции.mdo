@@ -29,7 +29,7 @@
       <value>Статус документа</value>
     </synonym>
     <type>
-      <types>EnumRef.TK_СтатусыДокументаЗапросЦенПоставщикам</types>
+      <types>EnumRef.TK_СтатусыПубликацииЗапросовЦен</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -5,18 +5,18 @@
     <listType typeId="d5f308d9-6c5f-466c-8fe6-79870a487cc0" valueTypeId="e34e7304-1824-4bb5-9105-3e580901f4e8"/>
     <managerType typeId="64d938a0-4cfb-48b2-a5f9-44b450825042" valueTypeId="bdf9131b-f3f7-4b4c-b22d-60be2a930ca4"/>
   </producedTypes>
-  <name>TK_ТипыЗапроса</name>
+  <name>TK_ТипыЗапросовЦен</name>
   <synonym>
     <key>ru</key>
-    <value>Типы запроса</value>
+    <value>Типы запросов цен</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="cd329c87-5d73-4dfb-a2af-5a856a22e00f">
-    <name>Публичный</name>
+    <name>Открытый</name>
     <synonym>
       <key>ru</key>
-      <value>Публичный</value>
+      <value>Открытый</value>
     </synonym>
   </enumValues>
   <enumValues uuid="cbf2a0d3-1a95-4977-8004-dc4f9b60ec16">

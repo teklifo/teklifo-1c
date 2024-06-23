@@ -465,7 +465,7 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>Catalog.TK_УчетныеЗаписиНаСайте</mainTable>
+      <mainTable>Catalog.TK_УчетныеЗаписиTeklfio</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>

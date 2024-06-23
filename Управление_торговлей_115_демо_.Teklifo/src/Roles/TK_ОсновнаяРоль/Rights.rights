@@ -34,7 +34,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.TK_УчетныеЗаписиНаСайте</name>
+		<name>Catalog.TK_УчетныеЗаписиTeklfio</name>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>

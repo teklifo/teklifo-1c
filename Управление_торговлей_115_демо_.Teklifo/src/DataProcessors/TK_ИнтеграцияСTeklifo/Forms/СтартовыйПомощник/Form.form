@@ -1402,7 +1402,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.TK_ОбработкаИнтеграции</types>
+      <types>DataProcessorObject.TK_ИнтеграцияСTeklifo</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1703,7 +1703,7 @@
     </title>
     <id>22</id>
     <valueType>
-      <types>CatalogRef.TK_УчетныеЗаписиНаСайте</types>
+      <types>CatalogRef.TK_УчетныеЗаписиTeklfio</types>
     </valueType>
     <view>
       <common>true</common>

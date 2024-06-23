@@ -528,7 +528,7 @@
                     <value>Публичный</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
-                    <value>Enum.TK_ТипыЗапроса.EnumValue.Публичный</value>
+                    <value>Enum.TK_ТипыЗапросовЦен.EnumValue.Открытый</value>
                   </value>
                 </choiceList>
                 <choiceList>
@@ -537,7 +537,7 @@
                     <value>Закрытый</value>
                   </presentation>
                   <value xsi:type="core:ReferenceValue">
-                    <value>Enum.TK_ТипыЗапроса.EnumValue.Закрытый</value>
+                    <value>Enum.TK_ТипыЗапросовЦен.EnumValue.Закрытый</value>
                   </value>
                 </choiceList>
               </extInfo>

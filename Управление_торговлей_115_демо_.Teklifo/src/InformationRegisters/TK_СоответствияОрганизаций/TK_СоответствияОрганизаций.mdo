@@ -46,7 +46,7 @@
       <value>Учетная запись</value>
     </synonym>
     <type>
-      <types>CatalogRef.TK_УчетныеЗаписиНаСайте</types>
+      <types>CatalogRef.TK_УчетныеЗаписиTeklfio</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
