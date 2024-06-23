@@ -12,10 +12,10 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.TK_ИнтеграцияСTeklifo.Form.СтартовыйПомощник</defaultForm>
   <attributes uuid="c5a2d03c-cb60-44c4-86af-b60bcb789db5">
-    <name>Email</name>
+    <name>АдресЭлектроннойПочты</name>
     <synonym>
       <key>ru</key>
-      <value>Email</value>
+      <value>Адрес электронной почты</value>
     </synonym>
     <type>
       <types>String</types>
@@ -33,6 +33,46 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54eb6ee1-b895-482a-90db-477646ef86f0">
+    <name>Cookie</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cookie</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82802c54-959f-4828-bd83-23c3e05547da">
+    <name>ТокенCSRF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен CSRF</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4e1a1122-974b-43a4-88fa-084e5a356229">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TK_УчетныеЗаписиTeklfio</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

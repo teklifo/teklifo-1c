@@ -43,7 +43,9 @@
   </languages>
   <subsystems>Subsystem.TK_Teklifo</subsystems>
   <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
+  <commonPictures>CommonPicture.TK_Приветствие</commonPictures>
   <commonPictures>CommonPicture.TK_РазделTeklifo</commonPictures>
+  <commonPictures>CommonPicture.TK_УведомлениеОПисьме</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <roles>Role.TK_ОсновнаяРоль</roles>
@@ -51,7 +53,6 @@
   <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.TK_РаботаСWebВызовСервера</commonModules>
-  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
   <definedTypes>DefinedType.УпаковкаНоменклатурыБЭД</definedTypes>
@@ -70,10 +71,10 @@
   <enums>Enum.TK_ТипыЗапросовЦен</enums>
   <enums>Enum.КомпанияЧастноеЛицо</enums>
   <dataProcessors>DataProcessor.TK_ИнтеграцияСTeklifo</dataProcessors>
-  <informationRegisters>InformationRegister.TK_СоответствияОрганизаций</informationRegisters>
-  <informationRegisters>InformationRegister.TK_СоответствияНоменклатуры</informationRegisters>
-  <informationRegisters>InformationRegister.TK_СоответствияДокументовЗапросаЦенПоставщикам</informationRegisters>
-  <informationRegisters>InformationRegister.TK_СтатусыДокументовИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.TK_ВнешниеИдентификаторыСтрокДокументов</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СоответствиеОрганизацийTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствияДокументовЗапросаЦенОтКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СоответствияДокументовЗапросаЦенПоставщикам</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СоответствияНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтатусыДокументовИнтеграции</informationRegisters>
 </mdclass:Configuration>

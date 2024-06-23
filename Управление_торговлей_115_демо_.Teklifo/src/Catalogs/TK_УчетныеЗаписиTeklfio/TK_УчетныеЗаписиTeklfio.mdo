@@ -37,10 +37,10 @@
   <defaultListForm>Catalog.TK_УчетныеЗаписиTeklfio.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.TK_УчетныеЗаписиTeklfio.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="d2075528-b657-48e7-a3b7-40c799fb829e">
-    <name>Email</name>
+    <name>АдресЭлектроннойПочты</name>
     <synonym>
       <key>ru</key>
-      <value>Email</value>
+      <value>Адрес электронной почты</value>
     </synonym>
     <type>
       <types>String</types>

@@ -9,28 +9,28 @@
     <recordType typeId="de149134-4613-4ea2-869a-451011aa155b" valueTypeId="c52a5d59-f8be-490e-b821-655a1ef6438e"/>
     <recordManagerType typeId="584abac4-d13b-4ec4-9076-6b331ac2a0b2" valueTypeId="d93b4bdc-3b6a-4506-a5d5-c2c66fa26b75"/>
   </producedTypes>
-  <name>TK_СоответствияОрганизаций</name>
+  <name>TK_СоответствиеОрганизацийTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Соответствия организаций (Teklifo)</value>
+    <value>Соответствие организаций Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Соответствие организации (Teklifo)</value>
+    <value>Соответствие организаций Teklifo</value>
   </recordPresentation>
   <resources uuid="364e88b1-060c-4ce7-b7bc-aadb3f6d22c6">
-    <name>ОрганизацияНаСайте</name>
+    <name>ИдентификаторОрганизацииTeklifo</name>
     <synonym>
       <key>ru</key>
-      <value>Организация на сайте</value>
+      <value>Идентификатор организации Teklifo</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>256</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
