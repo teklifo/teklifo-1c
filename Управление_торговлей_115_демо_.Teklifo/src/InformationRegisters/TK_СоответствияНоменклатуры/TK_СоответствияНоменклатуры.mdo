@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Соответствие номенклатуры</value>
+  </recordPresentation>
   <resources uuid="870c3995-d9b5-4f72-a045-b2ec962e6d81">
     <name>ВнешнийID</name>
     <synonym>

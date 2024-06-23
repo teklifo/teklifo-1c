@@ -18,6 +18,10 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статус документа интеграции (Teklifo)</value>
+  </recordPresentation>
   <resources uuid="0491c2fd-f60b-4499-bae9-573aae952fad">
     <name>СтатусДокумента</name>
     <synonym>

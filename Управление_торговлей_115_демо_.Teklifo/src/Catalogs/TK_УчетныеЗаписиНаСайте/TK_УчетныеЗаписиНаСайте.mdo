@@ -10,7 +10,7 @@
   <name>TK_УчетныеЗаписиНаСайте</name>
   <synonym>
     <key>ru</key>
-    <value>Учетные записи (Teklifo)</value>
+    <value>Учетные записи Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.TK_УчетныеЗаписиНаСайте.StandardAttribute.Code</inputByString>
@@ -18,6 +18,10 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учетные записи Teklifo</value>
+  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

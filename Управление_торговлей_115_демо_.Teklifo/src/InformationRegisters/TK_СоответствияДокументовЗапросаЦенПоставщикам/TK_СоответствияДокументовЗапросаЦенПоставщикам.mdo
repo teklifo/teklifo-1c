@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Соответствие документа запроса цен поставщикам</value>
+  </recordPresentation>
   <resources uuid="30c95790-11d5-4b85-82d4-de4a4ea3b2a5">
     <name>ВнешнийID</name>
     <synonym>
