@@ -77,6 +77,33 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="5f76e188-69e5-4ff4-bc11-fe201cb2d1f0">
+    <name>ИдентификаторОрганизацииTeklifo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор организации Teklifo</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0f6b6823-0085-4625-b91a-ebc783f69b3c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="2dbaa73c-b623-405f-a895-9ded2e20372c">
     <name>СтартовыйПомощник</name>
     <synonym>

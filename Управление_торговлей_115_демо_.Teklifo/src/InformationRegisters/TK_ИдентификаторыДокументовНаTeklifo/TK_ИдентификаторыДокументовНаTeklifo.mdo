@@ -40,10 +40,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="6ead8983-ce0b-410c-af26-a8ad2a1ab5d4">
-    <name>НомерДокумент</name>
+    <name>НомерДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>Номер документ</value>
+      <value>Номер документа</value>
     </synonym>
     <type>
       <types>String</types>

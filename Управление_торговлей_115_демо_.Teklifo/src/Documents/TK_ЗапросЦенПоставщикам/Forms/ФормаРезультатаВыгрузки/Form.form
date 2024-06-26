@@ -1,22 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
-    <name>ГруппаФормы</name>
-    <id>4</id>
-    <items xsi:type="form:FormField">
-      <name>СсылкаНаДокумент</name>
-      <id>1</id>
+    <name>ГруппаСтраницыВнешнейСсылки</name>
+    <id>15</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаВнешняяСсылка</name>
+      <id>4</id>
+      <items xsi:type="form:FormField">
+        <name>ВнешняяСсылка</name>
+        <id>1</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВнешняяСсылка</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ВнешняяСсылкаРасширеннаяПодсказка</name>
+          <id>3</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ВнешняяСсылкаКонтекстноеМеню</name>
+          <id>2</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <handlers>
+            <event>Click</event>
+            <name>ВнешняяСсылкаНажатие</name>
+          </handlers>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <hyperlink>true</hyperlink>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Button">
+        <name>КомандаСкопироватьСсылкуВБуфер</name>
+        <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаСкопироватьСсылкуВБуферРасширеннаяПодсказка</name>
+          <id>7</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.СкопироватьСсылкуВБуфер</commandName>
+        <representation>Picture</representation>
+        <width>3</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>1</height>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.TK_КопироватьВБуферОбмена</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СсылкаНаДокумент</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>СсылкаНаДокументРасширеннаяПодсказка</name>
-        <id>3</id>
+        <name>ГруппаВнешняяСсылкаРасширеннаяПодсказка</name>
+        <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -29,42 +113,72 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <contextMenu>
-        <name>СсылкаНаДокументКонтекстноеМеню</name>
-        <id>2</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <handlers>
-          <event>Click</event>
-          <name>СсылкаНаДокументНажатие</name>
-        </handlers>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <hyperlink>true</hyperlink>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <showTitle>true</showTitle>
       </extInfo>
     </items>
-    <items xsi:type="form:Button">
-      <name>КомандаСкопироватьСсылкуВБуфер</name>
-      <id>6</id>
-      <visible>true</visible>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаБуферОбмена</name>
+      <id>10</id>
+      <items xsi:type="form:FormField">
+        <name>БуферОбмена</name>
+        <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>БуферОбмена</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>БуферОбменаРасширеннаяПодсказка</name>
+          <id>14</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>БуферОбменаКонтекстноеМеню</name>
+          <id>13</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>HTMLDocumentField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:HtmlFieldExtInfo">
+          <width>50</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>1</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+        </extInfo>
+      </items>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаСкопироватьСсылкуВБуферРасширеннаяПодсказка</name>
-        <id>7</id>
+        <name>ГруппаБуферОбменаРасширеннаяПодсказка</name>
+        <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -77,31 +191,20 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.КомандаСкопироватьСсылкуВБуфер</commandName>
-      <representation>Picture</representation>
-      <width>3</width>
-      <autoMaxWidth>true</autoMaxWidth>
-      <height>1</height>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <picture xsi:type="core:PictureRef">
-        <picture>CommonPicture.TK_КопироватьВБуферОбмена</picture>
-      </picture>
-      <representationInContextMenu>Auto</representationInContextMenu>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Группа1</value>
-    </title>
     <extendedTooltip>
-      <name>ГруппаФормыРасширеннаяПодсказка</name>
-      <id>5</id>
+      <name>ГруппаСтраницыВнешнейСсылкиРасширеннаяПодсказка</name>
+      <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -114,27 +217,25 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AlwaysHorizontal</group>
-      <behavior>Auto</behavior>
-      <representation>WeakSeparation</representation>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <throughAlign>Auto</throughAlign>
+    <type>Pages</type>
+    <extInfo xsi:type="form:PagesGroupExtInfo">
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>КомандаОк</name>
+    <name>Закрыть</name>
     <id>8</id>
+    <title>
+      <key>ru</key>
+      <value>ОК</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>КомандаОкРасширеннаяПодсказка</name>
+      <name>ЗакрытьРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -149,7 +250,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.КомандаОк</commandName>
+    <commandName>Form.StandardCommand.Close</commandName>
     <representation>Auto</representation>
     <defaultButton>true</defaultButton>
     <autoMaxWidth>true</autoMaxWidth>
@@ -185,7 +286,7 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>СсылкаНаДокумент</name>
+    <name>ВнешняяСсылка</name>
     <title>
       <key>ru</key>
       <value>Внешняя ссылка на документ</value>
@@ -203,10 +304,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ДокументСсылка</name>
+    <name>Документ</name>
     <title>
       <key>ru</key>
-      <value>Документ ссылка</value>
+      <value>Документ</value>
     </title>
     <id>2</id>
     <valueType>
@@ -219,8 +320,26 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>БуферОбмена</name>
+    <title>
+      <key>ru</key>
+      <value>Буфер обмена</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
-    <name>КомандаСкопироватьСсылкуВБуфер</name>
+    <name>СкопироватьСсылкуВБуфер</name>
     <title>
       <key>ru</key>
       <value>Скопировать ссылку в буфер</value>
@@ -231,24 +350,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>КомандаСкопироватьСсылкуВБуфер</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаОк</name>
-    <title>
-      <key>ru</key>
-      <value>Ок</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаОк</name>
+        <name>СкопироватьСсылкуВБуфер</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

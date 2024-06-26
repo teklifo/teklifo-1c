@@ -22,15 +22,15 @@
     <value>Соответствие номенклатуры</value>
   </recordPresentation>
   <resources uuid="870c3995-d9b5-4f72-a045-b2ec962e6d81">
-    <name>ВнешнийID</name>
+    <name>ВнешнийИдентификатор</name>
     <synonym>
       <key>ru</key>
-      <value>Внешний ID</value>
+      <value>Внешний идентификатор</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>256</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -39,22 +39,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="f8b4a277-56b5-4074-9f7a-b8338d7bc297">
-    <name>Номенклатура</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номенклатура</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Номенклатура</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="dcf116d2-f87a-4bbf-b8c1-549c73ae673c">
     <name>Организация</name>
     <synonym>
@@ -68,6 +52,24 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8b4a277-56b5-4074-9f7a-b8338d7bc297">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
