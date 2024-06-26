@@ -43,6 +43,7 @@
   </languages>
   <subsystems>Subsystem.TK_Teklifo</subsystems>
   <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
+  <commonPictures>CommonPicture.TK_Опубликовать</commonPictures>
   <commonPictures>CommonPicture.TK_Приветствие</commonPictures>
   <commonPictures>CommonPicture.TK_РазделTeklifo</commonPictures>
   <commonPictures>CommonPicture.TK_УведомлениеОПисьме</commonPictures>
@@ -52,6 +53,7 @@
   <commonModules>CommonModule.TK_ЗагрузкаИСозданиеДанныхСервер</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.TK_РаботаСJSONВызовСервера</commonModules>
   <commonModules>CommonModule.TK_РаботаСWebВызовСервера</commonModules>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
@@ -71,10 +73,10 @@
   <enums>Enum.TK_ТипыЗапросовЦен</enums>
   <enums>Enum.КомпанияЧастноеЛицо</enums>
   <dataProcessors>DataProcessor.TK_ИнтеграцияСTeklifo</dataProcessors>
-  <informationRegisters>InformationRegister.TK_ВнешниеИдентификаторыСтрокДокументов</informationRegisters>
+  <informationRegisters>InformationRegister.TK_ИдентификаторыДокументовНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_ИдентификаторыСтрокДокументовНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СоответствиеНоменклатурыTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствиеОрганизацийTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствияДокументовЗапросаЦенОтКлиентов</informationRegisters>
-  <informationRegisters>InformationRegister.TK_СоответствияДокументовЗапросаЦенПоставщикам</informationRegisters>
-  <informationRegisters>InformationRegister.TK_СоответствияНоменклатуры</informationRegisters>
-  <informationRegisters>InformationRegister.TK_СтатусыДокументовИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтатусыПубликацииДокументовНаTeklifo</informationRegisters>
 </mdclass:Configuration>

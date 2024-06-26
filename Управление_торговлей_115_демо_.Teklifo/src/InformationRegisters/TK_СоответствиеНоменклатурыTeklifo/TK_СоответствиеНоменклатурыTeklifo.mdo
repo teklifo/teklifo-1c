@@ -9,10 +9,10 @@
     <recordType typeId="abddf183-c07b-48de-bf2b-46b6f2c50f7a" valueTypeId="d88a0d44-4da2-42e5-a025-ac2a4b89c610"/>
     <recordManagerType typeId="6b5c4aaa-c23d-4000-be8b-9c80dcda09cc" valueTypeId="78bf7980-1ae0-40c5-ab19-4f8d9326a999"/>
   </producedTypes>
-  <name>TK_СоответствияНоменклатуры</name>
+  <name>TK_СоответствиеНоменклатурыTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Соответствия номенклатуры</value>
+    <value>Соответствие номенклатуры Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

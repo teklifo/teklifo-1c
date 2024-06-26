@@ -52,17 +52,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="95bd3fd6-a77d-42dc-b03b-6a3be9b6a631">
-    <name>Ответственный</name>
+  <attributes uuid="c39f3530-f31b-4495-b61e-725fc083fdff">
+    <name>Заголовок</name>
     <synonym>
       <key>ru</key>
-      <value>Ответственный</value>
+      <value>Заголовок</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -82,11 +86,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4d225514-90a1-4008-bb5c-d049e4068ab6">
-    <name>НачальнаяДатаСбораПредложения</name>
+  <attributes uuid="7484061a-8880-4b36-9f7b-9bf7d885e3b8">
+    <name>ТипЗапроса</name>
     <synonym>
       <key>ru</key>
-      <value>Начальная дата сбора предложения</value>
+      <value>Тип запроса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.TK_ТипыЗапросовЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.TK_ТипыЗапросовЦен.EnumValue.Открытый</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d225514-90a1-4008-bb5c-d049e4068ab6">
+    <name>НачальнаяДатаСбораПредложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная дата сбора предложений</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -101,10 +122,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="e7354c60-7bf0-48f0-b0d9-39d0d23b7372">
-    <name>КонечнаяДатаСбораПредложения</name>
+    <name>КонечнаяДатаСбораПредложений</name>
     <synonym>
       <key>ru</key>
-      <value>Конечная дата сбора предложения</value>
+      <value>Конечная дата сбора предложений</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -182,20 +203,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7484061a-8880-4b36-9f7b-9bf7d885e3b8">
-    <name>ТипЗапроса</name>
+  <attributes uuid="95bd3fd6-a77d-42dc-b03b-6a3be9b6a631">
+    <name>Менеджер</name>
     <synonym>
       <key>ru</key>
-      <value>Тип запроса</value>
+      <value>Менеджер</value>
     </synonym>
     <type>
-      <types>EnumRef.TK_ТипыЗапросовЦен</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.TK_ТипыЗапросовЦен.EnumValue.Открытый</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -260,6 +279,7 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <fillChecking>ShowError</fillChecking>
     <attributes uuid="aea4bbe3-655a-4752-9f2f-0b92e370351f">
       <name>Номенклатура</name>
       <synonym>
@@ -271,6 +291,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -284,19 +305,20 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>15</precision>
-          <scale>2</scale>
+          <scale>3</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="2996a630-d5ef-48be-bee7-3ee57f72c34f">
-      <name>ЖелаемаяЦена</name>
+      <name>МаксимальнаяЦена</name>
       <synonym>
         <key>ru</key>
-        <value>Желаемая цена</value>
+        <value>Максимальная цена</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -307,14 +329,15 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="e0f7c438-9cb3-4d72-9d2b-c65447021c9f">
-      <name>ДатаПоставки</name>
+      <name>ДатаДоставки</name>
       <synonym>
         <key>ru</key>
-        <value>Дата поставки</value>
+        <value>Дата доставки</value>
       </synonym>
       <type>
         <types>Date</types>
@@ -324,6 +347,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -351,7 +375,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>256</length>
+          <length>100</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -360,4 +384,23 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="8afe88a6-8519-456f-bf4b-fb885e07e470">
+    <name>Опубликовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликовать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.TK_ЗапросЦенПоставщикам</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Опубликовать документ на сервисе Teklifo</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.TK_Опубликовать</picture>
+    </picture>
+  </commands>
 </mdclass:Document>

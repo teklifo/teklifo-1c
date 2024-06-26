@@ -9,10 +9,10 @@
     <recordType typeId="76d7d240-a808-48fa-bb63-ae79eebe9c57" valueTypeId="5bfbdb6d-9c3d-4724-8585-af6af34b88b4"/>
     <recordManagerType typeId="4624929f-e2f0-4336-bb65-30e7dc2ed12b" valueTypeId="8cfbd6c3-631b-49cf-b4bb-6bb6b7a340ba"/>
   </producedTypes>
-  <name>TK_СтатусыДокументовИнтеграции</name>
+  <name>TK_СтатусыПубликацииДокументовНаTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Статусы документов интеграции (Teklifo)</value>
+    <value>Статусы публикации документов на Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -20,13 +20,13 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Статус документа интеграции (Teklifo)</value>
+    <value>Статус публикации документа на Teklifo</value>
   </recordPresentation>
   <resources uuid="0491c2fd-f60b-4499-bae9-573aae952fad">
-    <name>СтатусДокумента</name>
+    <name>Статус</name>
     <synonym>
       <key>ru</key>
-      <value>Статус документа</value>
+      <value>Статус</value>
     </synonym>
     <type>
       <types>EnumRef.TK_СтатусыПубликацииЗапросовЦен</types>
@@ -50,7 +50,9 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
