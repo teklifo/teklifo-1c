@@ -54,22 +54,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ba336229-e6da-4654-99cd-5d4e1e9cc25f">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="f91b86a1-389b-4970-9c8d-c4a2dcb37929">
     <name>ФормаЭлемента</name>
     <synonym>

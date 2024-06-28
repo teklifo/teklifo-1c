@@ -307,6 +307,7 @@
           <verticalStretch>true</verticalStretch>
         </extInfo>
       </items>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -1236,7 +1237,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыНоменклатура</name>
-          <id>43</id>
+          <id>168</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1245,9 +1246,13 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Товары.Номенклатура</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыНоменклатураПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
-            <id>45</id>
+            <id>170</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1262,7 +1267,57 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыНоменклатураКонтекстноеМеню</name>
-            <id>44</id>
+            <id>169</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ТоварыНоменклатураТекстом</name>
+          <id>165</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.НоменклатураТекстом</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ТоварыНоменклатураТекстомРасширеннаяПодсказка</name>
+            <id>167</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТоварыНоменклатураТекстомКонтекстноеМеню</name>
+            <id>166</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2464,6 +2519,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.WriteAndClose</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПровестиИЗакрыть</name>
+      </handler>
+    </action>
     <representation>Text</representation>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
@@ -2486,6 +2546,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Write</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаписатьДокумент</name>
+      </handler>
+    </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
@@ -2506,6 +2571,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Post</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПровестиДокумент</name>
+      </handler>
+    </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
