@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4930162-b3ec-4d9b-a897-bb60c0d0773f">
+  <name>TK_Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.TK_ЗапросЦенПоставщикам</content>
+  <parentSubsystem>Subsystem.TK_Teklifo</parentSubsystem>
+</mdclass:Subsystem>

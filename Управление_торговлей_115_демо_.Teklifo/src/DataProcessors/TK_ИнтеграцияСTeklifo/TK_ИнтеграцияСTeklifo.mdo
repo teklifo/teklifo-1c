@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b472943f-edf1-4ed3-b6ef-5ad9f4e1c385">
+  <producedTypes>
+    <objectType typeId="d7bae89a-eded-484d-baeb-87fd6a0e008f" valueTypeId="3122e16d-f4d6-4382-add7-d15928319164"/>
+    <managerType typeId="a2f1194a-bd6d-48d3-bdf4-e1d0738358c6" valueTypeId="8fc6df2a-2209-4860-96b8-1c7694d4e63f"/>
+  </producedTypes>
+  <name>TK_ИнтеграцияСTeklifo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Teklifo</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.TK_ИнтеграцияСTeklifo.Form.СтартовыйПомощник</defaultForm>
+  <attributes uuid="c5a2d03c-cb60-44c4-86af-b60bcb789db5">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15a5ab50-a28c-41db-bc45-3fa8f14a0ddd">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54eb6ee1-b895-482a-90db-477646ef86f0">
+    <name>Cookie</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cookie</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82802c54-959f-4828-bd83-23c3e05547da">
+    <name>ТокенCSRF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен CSRF</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4e1a1122-974b-43a4-88fa-084e5a356229">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.TK_УчетныеЗаписиTeklfio</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f76e188-69e5-4ff4-bc11-fe201cb2d1f0">
+    <name>ИдентификаторОрганизацииTeklifo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор организации Teklifo</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0f6b6823-0085-4625-b91a-ebc783f69b3c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2dbaa73c-b623-405f-a895-9ded2e20372c">
+    <name>СтартовыйПомощник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовый помощник</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0ef996a0-8b98-44ab-accd-35d7cf3121ec">
+    <name>СтартовыйПомощник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовый помощник</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5427e46-65f5-41d8-bd84-eec5353e58e3" extendedConfigurationObject="4259c461-12b1-4f3e-8283-5927c75afdb6">
+  <producedTypes>
+    <objectType typeId="78d3c581-b93d-447c-92b4-7d769f1c420a" valueTypeId="4c6f2e58-13f9-4eb4-ba49-4cb1c2ceb928"/>
+    <refType typeId="a230dee7-8bc2-4c29-8504-0d05495e9058" valueTypeId="5bd0a4cf-005d-4019-af5b-f5f471037f94"/>
+    <selectionType typeId="56d67b6e-7184-48cc-949a-8068c713f252" valueTypeId="6842c5a5-32da-4e39-a35c-a1780fd79626"/>
+    <listType typeId="36c254e4-373f-441d-8f50-70ea8e3cf36b" valueTypeId="7f39cbc6-2280-4f7e-a56c-c1bfd47a3fe6"/>
+    <managerType typeId="86f8f3e1-b34e-4618-bb8d-baf7b374dbf8" valueTypeId="1e13cdd2-229e-4ce6-b404-13babb0668b1"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="19eecef8-a05b-4153-8bac-f8e5a957b9f3" extendedConfigurationObject="489feb46-8450-495a-ab9b-547fdd55c2bc">
+    <name>ИНН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ИНН</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="4cc7aa36-f535-4b99-9fac-b0546f3e00c2">
+    <name>TK_ИдентификаторTeklifo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Teklifo</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f28148c-167b-4fe8-8783-e2de486ee3c4" extendedConfigurationObject="ce59e7d4-ce32-4e73-8b06-cda594aec2b3">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="056de7db-546e-4994-a218-252d68589528" extendedConfigurationObject="be19691e-3e4a-44a7-96c2-ce843902e27e">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="08d7f846-0505-4573-aeb4-7a4fb4fcfb70" extendedConfigurationObject="56ba8e3c-152e-472e-978c-1c8a27110815">
+    <name>ЮрФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ЮрФизЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

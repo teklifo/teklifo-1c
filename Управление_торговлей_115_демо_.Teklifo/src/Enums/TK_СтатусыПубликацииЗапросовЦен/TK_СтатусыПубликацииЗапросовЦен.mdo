@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7bd426e-bab6-4c50-90a8-9b4f97a26a52">
+  <producedTypes>
+    <refType typeId="e231f07d-211b-4b48-a523-84f2e7e98f2c" valueTypeId="016eaa8b-a95c-4645-85c5-44284308963f"/>
+    <listType typeId="01843287-5de0-4ce9-9e9b-a6b10b5b17d7" valueTypeId="43824127-4394-4672-aefd-756e6e7515be"/>
+    <managerType typeId="32ac7a8b-4331-4746-b49b-377db97627fd" valueTypeId="889bd78a-f7a4-47ce-af6f-369502452b3c"/>
+  </producedTypes>
+  <name>TK_СтатусыПубликацииЗапросовЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы публикации запросов цен</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6da9682d-1b5a-48b7-94a2-bb762af6d344">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c18f518b-a0f5-4e00-8b0c-d66a63cdb5b2">
+    <name>НеОпубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не опубликован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01e91c58-6284-4f99-8db6-8d01807c3175">
+    <name>ТребуетсяОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется обновление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

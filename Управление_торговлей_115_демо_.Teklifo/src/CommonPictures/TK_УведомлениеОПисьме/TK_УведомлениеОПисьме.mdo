@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f67593f6-2a0c-44dd-a893-d105b60e80c0">
+  <name>TK_УведомлениеОПисьме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление о письме</value>
+  </synonym>
+</mdclass:CommonPicture>
