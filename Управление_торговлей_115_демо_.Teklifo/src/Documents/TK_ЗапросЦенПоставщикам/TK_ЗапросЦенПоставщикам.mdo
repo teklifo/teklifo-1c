@@ -98,6 +98,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Enum.TK_ТипыЗапросовЦен.EnumValue.Открытый</value>
     </fillValue>

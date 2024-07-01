@@ -3,7 +3,7 @@
   <name>TK_РаботаСJSONВызовСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Работа с JSON</value>
+    <value>Работа с JSON вызов сервера</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

@@ -9,28 +9,28 @@
     <recordType typeId="9b9d2fcd-b157-4250-91c5-6d298a89dd18" valueTypeId="b343198f-480b-48f5-8fe0-2b0e6fcbafa0"/>
     <recordManagerType typeId="ae95f18e-b7cc-4881-95ee-623f147ea37f" valueTypeId="cfb26d1f-6c49-4478-ac20-3ced468d06ba"/>
   </producedTypes>
-  <name>TK_СоответствияДокументовЗапросаЦенОтКлиентов</name>
+  <name>TK_ИдентификаторыЗапросовЦенОтКлиентовНаTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Соответствия документов запроса цен от клиентов</value>
+    <value>Идентификаторы запросов цен от клиентов на Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Соответствие документа запроса цен от клиентов</value>
+    <value>Идентификатор запроса цен от клиентов на Teklifo</value>
   </recordPresentation>
   <resources uuid="24ce7f80-d78f-4734-abe0-782ff4cfb623">
-    <name>ВнешнийID</name>
+    <name>Идентификатор</name>
     <synonym>
       <key>ru</key>
-      <value>Внешний ID</value>
+      <value>Идентификатор</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>1000</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -40,15 +40,15 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="9a1da3d6-9be6-4eb4-abe8-b635a7d38665">
-    <name>number</name>
+    <name>НомерДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>Number</value>
+      <value>Номер документа</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>256</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -58,15 +58,15 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="4f2ed01f-5880-4f6f-a0af-fa2ae4ab4eaf">
-    <name>VersionId</name>
+    <name>ИдентификаторВерсии</name>
     <synonym>
       <key>ru</key>
-      <value>Version id</value>
+      <value>Идентификатор версии</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>1000</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -76,10 +76,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="93f0f824-d6a1-4254-ab31-5acc2db58c95">
-    <name>LatestVersion</name>
+    <name>ЭтоАктуальнаяВерсия</name>
     <synonym>
       <key>ru</key>
-      <value>Latest version</value>
+      <value>Это актуальная версия</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -91,10 +91,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="9198441a-9ce3-4ae9-a735-1953115dd9c6">
-    <name>ДокументЗапроса</name>
+    <name>Документ</name>
     <synonym>
       <key>ru</key>
-      <value>Документ запроса</value>
+      <value>Документ</value>
     </synonym>
     <type>
       <types>DocumentRef.TK_ЗапросЦенОтКлиента</types>
@@ -103,7 +103,9 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>

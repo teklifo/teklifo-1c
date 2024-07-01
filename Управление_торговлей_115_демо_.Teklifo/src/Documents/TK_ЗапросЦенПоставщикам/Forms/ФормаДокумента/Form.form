@@ -187,8 +187,9 @@
             <event>Click</event>
             <name>ВнешняяСсылкаНажатие</name>
           </handlers>
-          <maxWidth>15</maxWidth>
+          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <hyperlink>true</hyperlink>
         </extInfo>
       </items>
@@ -568,10 +569,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Лево</value>
-          </title>
           <extendedTooltip>
             <name>ГруппаЛевоРасширеннаяПодсказка</name>
             <id>59</id>
@@ -704,10 +701,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>ГруппаПраво</value>
-          </title>
           <extendedTooltip>
             <name>ГруппаПравоРасширеннаяПодсказка</name>
             <id>61</id>
@@ -738,10 +731,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Шапка</value>
-        </title>
         <extendedTooltip>
           <name>ГруппаШапкаРасширеннаяПодсказка</name>
           <id>24</id>
@@ -872,7 +861,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <maxWidth>11</maxWidth>
+            <maxWidth>12</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
@@ -926,7 +915,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <maxWidth>11</maxWidth>
+            <maxWidth>12</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
@@ -1035,6 +1024,10 @@
       <items xsi:type="form:FormField">
         <name>ТекстовоеОписание</name>
         <id>82</id>
+        <title>
+          <key>ru</key>
+          <value>Описание</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1292,6 +1285,10 @@
         <items xsi:type="form:FormField">
           <name>ТоварыНоменклатураТекстом</name>
           <id>165</id>
+          <title>
+            <key>ru</key>
+            <value>Содержание</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1938,39 +1935,6 @@
         <showTitle>true</showTitle>
       </extInfo>
     </items>
-    <items xsi:type="form:FormGroup">
-      <name>ГруппаДополнительно</name>
-      <id>163</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Дополнительно</value>
-      </title>
-      <extendedTooltip>
-        <name>ГруппаДополнительноРасширеннаяПодсказка</name>
-        <id>164</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>Page</type>
-      <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>Vertical</group>
-        <showTitle>true</showTitle>
-      </extInfo>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -2591,6 +2555,10 @@
     <handlers>
       <event>AfterWriteAtServer</event>
       <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

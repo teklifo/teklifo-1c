@@ -9,10 +9,10 @@
     <recordType typeId="76d7d240-a808-48fa-bb63-ae79eebe9c57" valueTypeId="5bfbdb6d-9c3d-4724-8585-af6af34b88b4"/>
     <recordManagerType typeId="4624929f-e2f0-4336-bb65-30e7dc2ed12b" valueTypeId="8cfbd6c3-631b-49cf-b4bb-6bb6b7a340ba"/>
   </producedTypes>
-  <name>TK_СтатусыПубликацииДокументовНаTeklifo</name>
+  <name>TK_СтатусыПубликацииЗапросовЦенПоставщикамНаTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Статусы публикации документов на Teklifo</value>
+    <value>Статусы публикации запросов цен поставщикам на Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -20,7 +20,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Статус публикации документа на Teklifo</value>
+    <value>Статус публикации запроса цен поставщикам на Teklifo</value>
   </recordPresentation>
   <resources uuid="0491c2fd-f60b-4499-bae9-573aae952fad">
     <name>Статус</name>

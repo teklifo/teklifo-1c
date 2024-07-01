@@ -9,10 +9,10 @@
     <recordType typeId="01e4a6ab-f106-416a-9589-398c8c7a4493" valueTypeId="caad7f0a-2efe-4796-9728-3bd98d633e97"/>
     <recordManagerType typeId="cf93c88d-38c2-406d-918a-a3598da53ea6" valueTypeId="8855a418-11ef-4fc1-857f-61e34e380035"/>
   </producedTypes>
-  <name>TK_ИдентификаторыДокументовНаTeklifo</name>
+  <name>TK_ИдентификаторыЗапросовЦенПоставщикамНаTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Идентификаторы документов на Teklifo</value>
+    <value>Идентификаторы запросов цен у поставщиков на Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

@@ -9,19 +9,19 @@
     <recordType typeId="5ee0ffe4-325c-4abf-af97-2fcae966859c" valueTypeId="2e4c51c5-7d25-4450-ac40-310c8cb95a37"/>
     <recordManagerType typeId="6901b49f-be67-4d03-93a5-5750b6256485" valueTypeId="cdb80f6e-9edf-44bf-ae5a-50d8b3cf935c"/>
   </producedTypes>
-  <name>TK_ИдентификаторыСтрокДокументовНаTeklifo</name>
+  <name>TK_ИдентификаторыСтрокЗапросовЦенПоставщикамНаTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Идентификаторы строк документов на Teklifo</value>
+    <value>Идентификаторы строк запросов цен у поставщиков на Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Идентификатор строки документа на Teklifo</value>
+    <value>Идентификатор строки запроса цен у поставщиков на Teklifo</value>
   </recordPresentation>
-  <resources uuid="117d8197-098d-43a2-9aa1-45e8bbbe4834">
+  <resources uuid="8da2cd8f-b40b-4aa1-be0d-90113d5a2020">
     <name>ВнешнийИдентификатор</name>
     <synonym>
       <key>ru</key>
