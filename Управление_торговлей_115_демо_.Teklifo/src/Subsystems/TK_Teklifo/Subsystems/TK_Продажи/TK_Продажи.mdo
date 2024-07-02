@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.TK_ЗапросЦенОтКлиента</content>
+  <content>Document.TK_КоммерческоеПредложениеКлиенту</content>
   <parentSubsystem>Subsystem.TK_Teklifo</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ac668bd-7c24-42a0-8699-016ad80a99ca" extendedConfigurationObject="8198b1d7-2c9e-4db8-ad97-159d11c3f0c9">
+  <producedTypes>
+    <managerType typeId="ca95b691-e4c3-4dec-a318-0f130a8c3e42" valueTypeId="9dc0ffbe-7ede-4e90-88b4-b2ccc3fae6f3"/>
+    <valueManagerType typeId="2763f38c-3d24-45e9-958b-43ffb1078da2" valueTypeId="ee80ec89-8d25-4bd3-bf96-c66c977f42ee"/>
+    <valueKeyType typeId="6b7e1225-5b8c-4090-a885-60c431fbc624" valueTypeId="3faf2f47-2dcd-457f-8fdb-8386eb6f01d3"/>
+  </producedTypes>
+  <name>ИспользоватьПартнеровИКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Constant>

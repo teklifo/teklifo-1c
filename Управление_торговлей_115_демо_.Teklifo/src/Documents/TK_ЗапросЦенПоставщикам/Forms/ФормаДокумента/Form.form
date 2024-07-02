@@ -1529,6 +1529,7 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
+            <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
@@ -2422,7 +2423,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>EnumRef.TK_СтатусыПубликацииЗапросовЦен</types>
+      <types>EnumRef.TK_СтатусыПубликацииДокументовНаTeklifo</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2441,6 +2442,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПринудительноЗакрытьФорму</name>
+    <title>
+      <key>ru</key>
+      <value>Принудительно закрыть форму</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

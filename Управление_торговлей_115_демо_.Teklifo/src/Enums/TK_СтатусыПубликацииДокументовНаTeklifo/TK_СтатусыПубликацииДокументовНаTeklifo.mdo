@@ -5,7 +5,7 @@
     <listType typeId="01843287-5de0-4ce9-9e9b-a6b10b5b17d7" valueTypeId="43824127-4394-4672-aefd-756e6e7515be"/>
     <managerType typeId="32ac7a8b-4331-4746-b49b-377db97627fd" valueTypeId="889bd78a-f7a4-47ce-af6f-369502452b3c"/>
   </producedTypes>
-  <name>TK_СтатусыПубликацииЗапросовЦен</name>
+  <name>TK_СтатусыПубликацииДокументовНаTeklifo</name>
   <synonym>
     <key>ru</key>
     <value>Статусы публикации запросов цен</value>
