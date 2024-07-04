@@ -12,7 +12,7 @@
   <name>TK_СтатусыПубликацииКоммерческихПредложенийНаTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Статусы публикации коммерческого предложения на Teklifo</value>
+    <value>Статусы публикации коммерческих предложений на Teklifo</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

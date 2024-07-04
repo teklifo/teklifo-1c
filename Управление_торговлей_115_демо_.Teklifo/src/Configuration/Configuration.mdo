@@ -56,6 +56,7 @@
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <roles>Role.TK_ОсновнаяРоль</roles>
   <commonModules>CommonModule.TK_ИнтеграцияСTeklifoВызовСервера</commonModules>
+  <commonModules>CommonModule.TK_ИнтеграцияСTeklifoКлиент</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.TK_РаботаСJSONВызовСервера</commonModules>
