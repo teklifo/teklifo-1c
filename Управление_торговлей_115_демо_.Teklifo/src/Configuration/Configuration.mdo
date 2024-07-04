@@ -88,10 +88,12 @@
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ЮрФизЛицо</enums>
   <dataProcessors>DataProcessor.TK_ИнтеграцияСTeklifo</dataProcessors>
-  <informationRegisters>InformationRegister.TK_ИдентификаторыЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
-  <informationRegisters>InformationRegister.TK_ИдентификаторыСтрокЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_ЗапросыЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_КоммерческиеПредложенияКлиентамНаTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствиеНоменклатурыTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствиеОрганизацийTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СтатусыПубликацииЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СтатусыПубликацииКоммерческихПредложенийНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтрокиЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтрокиКоммерческихПредложенийКлиентамНаTeklifo</informationRegisters>
 </mdclass:Configuration>

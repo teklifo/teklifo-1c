@@ -260,6 +260,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7472ea7a-bad6-41c4-ac6c-ac7f0d917d3c">
+    <name>ФормаРезультатаПубликаци</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="160cef3e-c936-4e82-aaf7-b72e23d93652">
     <producedTypes>
       <objectType typeId="2b865259-532a-494a-b314-e475691391b2" valueTypeId="4c897468-96a1-44b4-b923-bb9ae803e1e7"/>
@@ -667,4 +676,23 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="2cb446fb-2096-4879-a6cc-306b9290da5f">
+    <name>Опубликовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить клиенту</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.TK_КоммерческоеПредложениеКлиенту</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправить коммерческое предложение клиенту</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.TK_Опубликовать</picture>
+    </picture>
+  </commands>
 </mdclass:Document>
