@@ -33,6 +33,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.TK_КоммерческоеПредложениеКлиенту.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.TK_КоммерческоеПредложениеКлиенту.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="67bffb81-dfb4-4416-ae97-825841e4ebc2">
@@ -250,6 +251,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="2b24aac0-0acf-42bd-9850-ed7e24d31c5e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="160cef3e-c936-4e82-aaf7-b72e23d93652">
     <producedTypes>
       <objectType typeId="2b865259-532a-494a-b314-e475691391b2" valueTypeId="4c897468-96a1-44b4-b923-bb9ae803e1e7"/>
@@ -298,10 +308,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="28e4e22d-fd51-4333-b9e7-715c73e8ef3a">
-      <name>Номенклатура</name>
+      <name>ЗапрошеннаяНоменклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура</value>
+        <value>Запрошенная номенклатура</value>
       </synonym>
       <type>
         <types>CatalogRef.НоменклатураКонтрагентов</types>
@@ -312,10 +322,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="be336874-f42c-4950-91bc-c78ef2676b35">
-      <name>НоменклатураТекстом</name>
+      <name>ЗапрошеннаяНоменклатураТекстом</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура текстом</value>
+        <value>Запрошенная номенклатура текстом</value>
       </synonym>
       <type>
         <types>String</types>
@@ -398,6 +408,77 @@
       <multiLine>true</multiLine>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d511ef5-aca1-48e4-a32a-145e9375abeb">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b4586ac-2bbb-4031-b6f6-fca4c8ecaf8d">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Характеристика номенклатуры, если есть</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.TK_КоммерческоеПредложениеКлиенту.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7ca6c56f-6656-4b28-b6fc-6fb2c9780274">
+      <name>ВидЦены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид цены</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыЦен</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Определяет алгоритм расчета и правила округления цены продажи</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.ЦенаВключаетНДС</name>
+        <field>Document.TK_КоммерческоеПредложениеКлиенту.Attribute.ЦенаВключаетНДС</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.ИспользоватьПриПродаже</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.Статус</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.СтатусыДействияВидовЦен.EnumValue.Действует</value>
+        </value>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

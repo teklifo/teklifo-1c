@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0d310780-8023-489d-b871-8c507eb13bf5" extendedConfigurationObject="261f5484-2e47-44b5-a6ea-16ab35d43078">
+  <name>ЗаполнитьРеквизитыОбъекта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EventSubscriptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <source>Extended</source>
+  </extension>
+  <source>
+    <types>DocumentObject.TK_ЗапросЦенПоставщикам</types>
+    <types>DocumentObject.TK_КоммерческоеПредложениеКлиенту</types>
+  </source>
+</mdclass:EventSubscription>

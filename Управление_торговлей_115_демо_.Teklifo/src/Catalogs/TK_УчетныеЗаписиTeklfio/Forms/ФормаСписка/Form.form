@@ -146,7 +146,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Email</name>
+      <name>АдресЭлектроннойПочты</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -154,10 +154,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Email</segments>
+        <segments>Список.АдресЭлектроннойПочты</segments>
       </dataPath>
       <extendedTooltip>
-        <name>EmailРасширеннаяПодсказка</name>
+        <name>АдресЭлектроннойПочтыРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -172,7 +172,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>EmailКонтекстноеМеню</name>
+        <name>АдресЭлектроннойПочтыКонтекстноеМеню</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
