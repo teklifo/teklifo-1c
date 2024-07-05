@@ -185,6 +185,57 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>СтатусПубликации</name>
+      <id>48</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СтатусПубликации</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СтатусПубликацииРасширеннаяПодсказка</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтатусПубликацииКонтекстноеМеню</name>
+        <id>49</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <width>16</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Заголовок</name>
       <id>60</id>
       <visible>true</visible>
@@ -374,57 +425,6 @@
         <width>16</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СтатусПубликации</name>
-      <id>48</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.СтатусПубликации</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СтатусПубликацииРасширеннаяПодсказка</name>
-        <id>50</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СтатусПубликацииКонтекстноеМеню</name>
-        <id>49</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <width>16</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -973,6 +973,37 @@
           <representation>Picture</representation>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>СписокГруппаКомандГлобальные</name>
+        <id>116</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Список группа команд глобальные</value>
+        </title>
+        <extendedTooltip>
+          <name>СписокГруппаКомандГлобальныеРасширеннаяПодсказка</name>
+          <id>117</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <extInfo xsi:type="form:ButtonGroupExtInfo">
+          <commandSource>FormCommandPanelGlobalCommands</commandSource>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1206,26 +1237,26 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	TK_ЗапросЦенПоставщикам.Ссылка КАК Ссылка,
-	TK_ЗапросЦенПоставщикам.ПометкаУдаления КАК ПометкаУдаления,
-	TK_ЗапросЦенПоставщикам.Номер КАК Номер,
-	TK_ЗапросЦенПоставщикам.Дата КАК Дата,
-	TK_ЗапросЦенПоставщикам.Проведен КАК Проведен,
-	TK_ЗапросЦенПоставщикам.Организация КАК Организация,
-	TK_ЗапросЦенПоставщикам.Заголовок КАК Заголовок,
-	TK_ЗапросЦенПоставщикам.Менеджер КАК Менеджер,
-	TK_ЗапросЦенПоставщикам.Валюта КАК Валюта,
-	TK_ЗапросЦенПоставщикам.НачальнаяДатаСбораПредложений КАК НачальнаяДатаСбораПредложений,
-	TK_ЗапросЦенПоставщикам.КонечнаяДатаСбораПредложений КАК КонечнаяДатаСбораПредложений,
-	TK_ЗапросЦенПоставщикам.ТипЗапроса КАК ТипЗапроса,
-	TK_ЗапросЦенПоставщикам.Комментарий КАК Комментарий,
-	ЕСТЬNULL(TK_СтатусыДокументовИнтеграцииСрезПоследних.Статус,
-		ЗНАЧЕНИЕ(Перечисление.TK_СтатусыПубликацииДокументовНаTeklifo.НеОпубликован)) КАК СтатусПубликации
+	ЗапросЦенПоставщикам.Ссылка КАК Ссылка,
+	ЗапросЦенПоставщикам.ПометкаУдаления КАК ПометкаУдаления,
+	ЗапросЦенПоставщикам.Номер КАК Номер,
+	ЗапросЦенПоставщикам.Дата КАК Дата,
+	ЗапросЦенПоставщикам.Проведен КАК Проведен,
+	ЗапросЦенПоставщикам.Организация КАК Организация,
+	ЗапросЦенПоставщикам.Заголовок КАК Заголовок,
+	ЗапросЦенПоставщикам.Менеджер КАК Менеджер,
+	ЗапросЦенПоставщикам.Валюта КАК Валюта,
+	ЗапросЦенПоставщикам.НачальнаяДатаСбораПредложений КАК НачальнаяДатаСбораПредложений,
+	ЗапросЦенПоставщикам.КонечнаяДатаСбораПредложений КАК КонечнаяДатаСбораПредложений,
+	ЗапросЦенПоставщикам.ТипЗапроса КАК ТипЗапроса,
+	ЗапросЦенПоставщикам.Комментарий КАК Комментарий,
+	ЕСТЬNULL(СтатусыПубликации.Статус, ЗНАЧЕНИЕ(Перечисление.TK_СтатусыПубликацииДокументовНаTeklifo.НеОпубликован)) КАК
+		СтатусПубликации
 ИЗ
-	Документ.TK_ЗапросЦенПоставщикам КАК TK_ЗапросЦенПоставщикам
+	Документ.TK_ЗапросЦенПоставщикам КАК ЗапросЦенПоставщикам
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.TK_СтатусыПубликацииЗапросовЦенПоставщикамНаTeklifo.СрезПоследних КАК
-			TK_СтатусыДокументовИнтеграцииСрезПоследних
-		ПО TK_СтатусыДокументовИнтеграцииСрезПоследних.Документ = TK_ЗапросЦенПоставщикам.Ссылка</queryText>
+			СтатусыПубликации
+		ПО СтатусыПубликации.Документ = ЗапросЦенПоставщикам.Ссылка</queryText>
       <mainTable>Document.TK_ЗапросЦенПоставщикам</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>

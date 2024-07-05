@@ -42,6 +42,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.TK_Teklifo</subsystems>
+  <styleItems>StyleItem.TK_ШрифтЖирный</styleItems>
   <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.ЦветТекстаОтмененнойСтрокиДокумента</styleItems>
