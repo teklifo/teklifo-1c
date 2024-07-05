@@ -42,24 +42,35 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.TK_Teklifo</subsystems>
+  <styleItems>StyleItem.TK_ШрифтЖирный</styleItems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ЦветТекстаОтмененнойСтрокиДокумента</styleItems>
   <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
   <commonPictures>CommonPicture.TK_Опубликовать</commonPictures>
   <commonPictures>CommonPicture.TK_Приветствие</commonPictures>
   <commonPictures>CommonPicture.TK_РазделTeklifo</commonPictures>
   <commonPictures>CommonPicture.TK_УведомлениеОПисьме</commonPictures>
   <commonPictures>CommonPicture.TK_УспешнаяПубликация</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоОснованию</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <roles>Role.TK_ОсновнаяРоль</roles>
   <commonModules>CommonModule.TK_ИнтеграцияСTeklifoВызовСервера</commonModules>
+  <commonModules>CommonModule.TK_ИнтеграцияСTeklifoКлиент</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.TK_РаботаСJSONВызовСервера</commonModules>
+  <commonModules>CommonModule.СозданиеНаОснованииПереопределяемый</commonModules>
+  <eventSubscriptions>EventSubscription.ЗаполнитьРеквизитыОбъекта</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОчиститьОтветственногоВДокументах</eventSubscriptions>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
   <definedTypes>DefinedType.УпаковкаНоменклатурыБЭД</definedTypes>
+  <constants>Constant.ИспользоватьПартнеровИКонтрагентов</constants>
   <catalogs>Catalog.TK_УчетныеЗаписиTeklfio</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Марки</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -67,19 +78,24 @@
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
-  <documents>Document.TK_ЗапросЦенПоставщикам</documents>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.TK_ЗапросЦенОтКлиента</documents>
-  <enums>Enum.TK_СтатусыПубликацииЗапросовЦен</enums>
+  <documents>Document.TK_ЗапросЦенПоставщикам</documents>
+  <documents>Document.TK_КоммерческоеПредложениеКлиенту</documents>
+  <enums>Enum.TK_СтатусыПубликацииДокументовНаTeklifo</enums>
   <enums>Enum.TK_ТипыЗапросовЦен</enums>
   <enums>Enum.КомпанияЧастноеЛицо</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ЮрФизЛицо</enums>
   <dataProcessors>DataProcessor.TK_ИнтеграцияСTeklifo</dataProcessors>
-  <informationRegisters>InformationRegister.TK_ИдентификаторыЗапросовЦенОтКлиентовНаTeklifo</informationRegisters>
-  <informationRegisters>InformationRegister.TK_ИдентификаторыЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
-  <informationRegisters>InformationRegister.TK_ИдентификаторыСтрокЗапросовЦенОтКлиентовНаTeklifo</informationRegisters>
-  <informationRegisters>InformationRegister.TK_ИдентификаторыСтрокЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_ЗапросыЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_КоммерческиеПредложенияКлиентамНаTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствиеНоменклатурыTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствиеОрганизацийTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СтатусыПубликацииЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтатусыПубликацииКоммерческихПредложенийНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтрокиЗапросовЦенПоставщикамНаTeklifo</informationRegisters>
+  <informationRegisters>InformationRegister.TK_СтрокиКоммерческихПредложенийКлиентамНаTeklifo</informationRegisters>
 </mdclass:Configuration>

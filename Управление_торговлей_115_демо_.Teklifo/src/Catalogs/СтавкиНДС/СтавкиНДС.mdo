@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b21fa340-68fb-4f0a-a9eb-9c16dc860ba1" extendedConfigurationObject="c5ecf75c-face-47dc-af39-22056a5212f4">
+  <producedTypes>
+    <objectType typeId="29af1e10-eded-4e36-97eb-b08cc9b47631" valueTypeId="bc767e50-ec57-418e-bfd5-972270c119cb"/>
+    <refType typeId="6d8a8042-92f9-435f-82d3-dd03c8e0d4c0" valueTypeId="9a46641a-6d75-4d3a-95ed-1d9082ffcf07"/>
+    <selectionType typeId="2958bc25-470a-44f8-9cbb-0911306aee05" valueTypeId="ee0d0e22-a31d-4982-937c-18a77a179b11"/>
+    <listType typeId="67f89535-d178-49c3-9f90-cfc5411cb69a" valueTypeId="9d25b29d-b3af-4a45-9241-0dfa041e4b6c"/>
+    <managerType typeId="959ba4e2-a6f8-4c07-954a-abb685296b3f" valueTypeId="c29fbb08-dfc2-47b5-b09f-ffc6c7891c64"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <descriptionLength>15</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <predefined>
+    <items id="c7d2e6fc-3824-4b56-b4be-ae6be4944c0e">
+      <name>БезНДС</name>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="f05782ce-8c75-453a-9488-63ef5bec02c3" extendedConfigurationObject="b8914e59-6dff-42c6-89a3-fa1b3aa33077">
+    <name>Ставка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

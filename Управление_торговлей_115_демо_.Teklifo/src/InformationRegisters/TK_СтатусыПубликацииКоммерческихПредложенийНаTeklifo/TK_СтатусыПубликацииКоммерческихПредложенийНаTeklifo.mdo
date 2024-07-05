@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9db5b1d8-6064-4b05-8828-6e9a208aaf3e">
+  <producedTypes>
+    <selectionType typeId="409e30d2-54b2-4ea1-8abf-8b8031610746" valueTypeId="66695833-2721-4e3b-963e-49c7b49761b9"/>
+    <listType typeId="d8586739-6fc8-46f2-92cc-0051a7eb83ac" valueTypeId="ad6083af-e175-4b47-b839-906ef2aa94d1"/>
+    <managerType typeId="ffe09fd8-40cb-4c68-ae54-a9ecfae326cf" valueTypeId="c7ac0abb-e264-46a3-82ed-8dbba7faae01"/>
+    <recordSetType typeId="c13bc0c6-18e5-4ddb-b97a-9eef4e86d413" valueTypeId="873a0ba1-3301-4f48-b6a5-c66c6158147a"/>
+    <recordKeyType typeId="86da0b40-0376-4991-a18e-3f0144993eb8" valueTypeId="5b8523e5-3d0b-425b-abef-dfae14bb3692"/>
+    <recordType typeId="bf2691cc-8bc8-4215-8f6b-68dfed013ccb" valueTypeId="0688f6e3-3f36-46b1-9932-bc3b47500c7a"/>
+    <recordManagerType typeId="ed8222af-3e02-4e2e-b075-db79a6a4e7f2" valueTypeId="a0782e6d-5e67-44c4-8c90-4269d32eea4e"/>
+  </producedTypes>
+  <name>TK_СтатусыПубликацииКоммерческихПредложенийНаTeklifo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы публикации коммерческих предложений на Teklifo</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статусы публикации коммерческого предложения на Teklifo</value>
+  </recordPresentation>
+  <resources uuid="4b8f8e02-0e9c-4daf-be38-aa3946476092">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.TK_СтатусыПубликацииДокументовНаTeklifo</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="87dc3f7f-ae2b-41b3-b013-cc7415b8c7e0">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.TK_КоммерческоеПредложениеКлиенту</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

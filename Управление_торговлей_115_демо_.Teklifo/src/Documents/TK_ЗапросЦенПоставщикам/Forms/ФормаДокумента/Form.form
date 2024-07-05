@@ -6,10 +6,6 @@
     <items xsi:type="form:Decoration">
       <name>ДекорацияОповещение</name>
       <id>141</id>
-      <title>
-        <key>ru</key>
-        <value>Документ был изменен с момента последней публикации. Рекомендуется выполнить повторную публикацию документа.</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -43,9 +39,6 @@
       <type>Label</type>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
-      <textColor xsi:type="core:ColorRef">
-        <color>Style.SpecialTextColor</color>
-      </textColor>
       <font xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
         <bold>true</bold>
@@ -133,6 +126,10 @@
     <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <font xsi:type="core:FontDef">
+        <height>8.0</height>
+        <bold>true</bold>
+      </font>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -269,6 +266,7 @@
         <dataPath xsi:type="form:DataPath">
           <segments>БуферОбмена</segments>
         </dataPath>
+        <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>БуферОбменаРасширеннаяПодсказка</name>
           <id>162</id>
@@ -1529,6 +1527,7 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
+            <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
@@ -2366,6 +2365,10 @@
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
   </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>Post</excludedCommands>
@@ -2422,7 +2425,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>EnumRef.TK_СтатусыПубликацииЗапросовЦен</types>
+      <types>EnumRef.TK_СтатусыПубликацииДокументовНаTeklifo</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2441,6 +2444,40 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПринудительноЗакрытьФорму</name>
+    <title>
+      <key>ru</key>
+      <value>Принудительно закрыть форму</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПодтвержденоИзменениеОпубликованногоДокумента</name>
+    <title>
+      <key>ru</key>
+      <value>Подтверждено изменение опубликованного документа</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2553,12 +2590,16 @@
       <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
-    </handlers>
-    <handlers>
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

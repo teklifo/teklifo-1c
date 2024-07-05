@@ -29,7 +29,7 @@
       <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.TK_СтатусыПубликацииЗапросовЦен</types>
+      <types>EnumRef.TK_СтатусыПубликацииДокументовНаTeklifo</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

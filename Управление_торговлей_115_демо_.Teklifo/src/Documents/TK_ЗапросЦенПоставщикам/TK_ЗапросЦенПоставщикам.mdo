@@ -269,7 +269,7 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="985543ce-50c1-4608-94c4-4be44ed24e3b">
-    <name>ФормаРезультатаВыгрузки</name>
+    <name>ФормаРезультатаПубликаци</name>
     <synonym>
       <key>ru</key>
       <value>Результат выгрузки</value>
@@ -386,6 +386,7 @@
         <types>String</types>
         <stringQualifiers/>
       </type>
+      <multiLine>true</multiLine>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
