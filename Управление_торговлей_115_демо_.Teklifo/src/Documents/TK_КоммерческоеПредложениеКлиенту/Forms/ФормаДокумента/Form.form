@@ -2368,6 +2368,10 @@
           <event>OnActivateRow</event>
           <name>ТоварыПриАктивизацииСтроки</name>
         </handlers>
+        <handlers>
+          <event>OnStartEdit</event>
+          <name>ТоварыПриНачалеРедактирования</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
