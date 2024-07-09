@@ -64,6 +64,7 @@
   <commonModules>CommonModule.СозданиеНаОснованииПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.ЗаполнитьРеквизитыОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОчиститьОтветственногоВДокументах</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.TK_ОбменДаннымиСTeklifo</scheduledJobs>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
   <definedTypes>DefinedType.УпаковкаНоменклатурыБЭД</definedTypes>
@@ -84,6 +85,7 @@
   <documents>Document.TK_ЗапросЦенОтКлиента</documents>
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
   <documents>Document.TK_КоммерческоеПредложениеКлиенту</documents>
+  <documents>Document.TK_КоммерческоеПредложениеОтПоставщика</documents>
   <enums>Enum.TK_СтатусыПубликацииДокументовНаTeklifo</enums>
   <enums>Enum.TK_ТипыЗапросовЦен</enums>
   <enums>Enum.КомпанияЧастноеЛицо</enums>
