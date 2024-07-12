@@ -14,5 +14,5 @@
   <subsystems>TK_Закупки</subsystems>
   <subsystems>TK_НСИTeklfio</subsystems>
   <subsystems>TK_Продажи</subsystems>
-  <subsystems>TK_НачалоРаботы</subsystems>
+  <subsystems>TK_ИнтеграцияСTeklifo</subsystems>
 </mdclass:Subsystem>

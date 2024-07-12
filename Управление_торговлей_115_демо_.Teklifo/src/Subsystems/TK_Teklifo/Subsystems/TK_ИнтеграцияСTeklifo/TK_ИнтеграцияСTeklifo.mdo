@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ce18829-0d89-49cd-b75c-2b5129af4f8d">
-  <name>TK_НачалоРаботы</name>
+  <name>TK_ИнтеграцияСTeklifo</name>
   <synonym>
     <key>ru</key>
-    <value>Начало работы</value>
+    <value>Интеграция с Teklifo</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.TK_ИнтеграцияСTeklifo</content>
+  <content>Catalog.TK_УведомленияИнтеграцииСTeklifo</content>
   <parentSubsystem>Subsystem.TK_Teklifo</parentSubsystem>
 </mdclass:Subsystem>

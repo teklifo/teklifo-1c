@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e96ae10b-5c5b-4d12-b7c7-537555ad61fd">
+  <name>TK_Важность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Важность</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -46,9 +46,12 @@
   <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.ЦветТекстаОтмененнойСтрокиДокумента</styleItems>
+  <commonPictures>CommonPicture.TK_Важность</commonPictures>
   <commonPictures>CommonPicture.TK_КопироватьВБуферОбмена</commonPictures>
+  <commonPictures>CommonPicture.TK_НепрочитанноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.TK_Опубликовать</commonPictures>
   <commonPictures>CommonPicture.TK_Приветствие</commonPictures>
+  <commonPictures>CommonPicture.TK_ПрочитанноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.TK_РазделTeklifo</commonPictures>
   <commonPictures>CommonPicture.TK_УведомлениеОПисьме</commonPictures>
   <commonPictures>CommonPicture.TK_УспешнаяПубликация</commonPictures>
@@ -61,14 +64,16 @@
   <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.TK_РаботаСJSONВызовСервера</commonModules>
+  <commonModules>CommonModule.TK_РаботаСУведомлениямиTeklifo</commonModules>
   <commonModules>CommonModule.СозданиеНаОснованииПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.ЗаполнитьРеквизитыОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОчиститьОтветственногоВДокументах</eventSubscriptions>
   <scheduledJobs>ScheduledJob.TK_ОбменДаннымиСTeklifo</scheduledJobs>
-  <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
+  <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.УпаковкаНоменклатурыБЭД</definedTypes>
   <constants>Constant.ИспользоватьПартнеровИКонтрагентов</constants>
+  <catalogs>Catalog.TK_УведомленияИнтеграцииСTeklifo</catalogs>
   <catalogs>Catalog.TK_УчетныеЗаписиTeklfio</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>

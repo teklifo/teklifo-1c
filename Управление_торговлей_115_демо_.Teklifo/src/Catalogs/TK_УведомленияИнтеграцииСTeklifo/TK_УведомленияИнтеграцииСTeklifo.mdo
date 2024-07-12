@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d60b570-c7bc-4b4c-87f2-5c7ae8f52160">
+  <producedTypes>
+    <objectType typeId="7d653fa3-d0be-4a50-ab42-12b35a97df10" valueTypeId="8ffc3997-3de4-43df-977f-133aecd1d30e"/>
+    <refType typeId="fc6d86ac-db5e-4f18-8803-0a78ef9039f2" valueTypeId="26251b1a-73ef-4442-a2eb-1149701b2bba"/>
+    <selectionType typeId="815fbfe8-b7d6-4d26-a989-402582e44594" valueTypeId="aa2923b3-1b57-4a9e-899c-d4defd952f47"/>
+    <listType typeId="cbf1c01f-1226-45ab-8b21-8814d01e2607" valueTypeId="17113153-8496-4413-8bf0-619c75a6276a"/>
+    <managerType typeId="8808c1d4-9cea-47bd-b74c-339f068b819d" valueTypeId="6557e476-7b7d-40c4-95d9-b41beaaf8e5e"/>
+  </producedTypes>
+  <name>TK_УведомленияИнтеграцииСTeklifo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления интеграции с Teklifo</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.TK_УведомленияИнтеграцииСTeklifo.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление интеграции с Teklifo</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.TK_УведомленияИнтеграцииСTeklifo.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c0520794-f658-46fd-b150-8f3163dcb680">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a3ed630-276e-448b-998b-43e212110cd6">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7d76030-13f7-44e6-880e-767a04c98748">
+    <name>ТекстУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст уведомления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af4f5173-639d-4e15-bb11-0e52c171181d">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.TK_ЗапросЦенПоставщикам</types>
+      <types>DocumentRef.TK_ЗапросЦенОтКлиента</types>
+      <types>DocumentRef.TK_КоммерческоеПредложениеКлиенту</types>
+      <types>DocumentRef.TK_КоммерческоеПредложениеОтПоставщика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf3285cb-e227-4e1f-bcf8-4cb9549afb43">
+    <name>Важность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c9e054b-ebc2-4735-9fb3-0ded8c59f138">
+    <name>Прочитано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочитано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e5d24953-60d3-43d6-a41b-6568dba14533">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

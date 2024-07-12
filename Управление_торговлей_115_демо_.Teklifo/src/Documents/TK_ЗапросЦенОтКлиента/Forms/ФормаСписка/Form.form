@@ -49,6 +49,10 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Post</excludedCommands>
+    <excludedCommands>UndoPosting</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Номер</name>
       <id>16</id>
