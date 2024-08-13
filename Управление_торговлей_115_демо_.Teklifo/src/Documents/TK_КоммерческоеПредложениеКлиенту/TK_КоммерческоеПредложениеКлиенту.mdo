@@ -23,10 +23,10 @@
     </pages>
   </help>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
+  <listPresentation>
     <key>ru</key>
-    <value>Коммерческое предложение клиенту</value>
-  </objectPresentation>
+    <value>Коммерческие предложения клиентам</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberPeriodicity>Year</numberPeriodicity>
@@ -34,6 +34,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.TK_КоммерческоеПредложениеКлиенту.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.TK_КоммерческоеПредложениеКлиенту.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="67bffb81-dfb4-4416-ae97-825841e4ebc2">

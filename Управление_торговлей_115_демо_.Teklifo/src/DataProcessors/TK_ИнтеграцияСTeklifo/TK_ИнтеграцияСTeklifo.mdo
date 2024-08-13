@@ -113,11 +113,29 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="bdac59cc-206b-464f-b47a-b1fddd557fde">
+    <name>МониторОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор обмена</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="0ef996a0-8b98-44ab-accd-35d7cf3121ec">
     <name>СтартовыйПомощник</name>
     <synonym>
       <key>ru</key>
       <value>Стартовый помощник</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="73cbf0dd-f48f-4e4f-8f1c-e577531f1611">
+    <name>МониторОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монитор обмена</value>
     </synonym>
     <group>NavigationPanelImportant</group>
     <representation>Auto</representation>
