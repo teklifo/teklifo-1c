@@ -12,7 +12,7 @@
   </picture>
   <content>Role.TK_ОсновнаяРоль</content>
   <subsystems>TK_Закупки</subsystems>
+  <subsystems>TK_ИнтеграцияСTeklifo</subsystems>
   <subsystems>TK_НСИTeklfio</subsystems>
   <subsystems>TK_Продажи</subsystems>
-  <subsystems>TK_ИнтеграцияСTeklifo</subsystems>
 </mdclass:Subsystem>
