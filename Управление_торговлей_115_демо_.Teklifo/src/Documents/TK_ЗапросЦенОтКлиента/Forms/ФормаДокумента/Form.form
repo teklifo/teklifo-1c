@@ -1619,10 +1619,6 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.КонтактноеЛицо</segments>
         </dataPath>
-        <handlers>
-          <event>OnChange</event>
-          <name>КонтактноеЛицоПриИзменении</name>
-        </handlers>
         <extendedTooltip>
           <name>КонтактноеЛицоРасширеннаяПодсказка</name>
           <id>207</id>
@@ -1649,6 +1645,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
+        <readOnly>true</readOnly>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
