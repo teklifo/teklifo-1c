@@ -2362,7 +2362,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>100</length>
+        <length>50</length>
       </stringQualifiers>
     </valueType>
     <view>
