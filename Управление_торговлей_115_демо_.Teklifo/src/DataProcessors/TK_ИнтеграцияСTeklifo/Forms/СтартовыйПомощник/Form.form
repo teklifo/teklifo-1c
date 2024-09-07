@@ -2468,6 +2468,42 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>НомерТелефонаОрганизации</name>
+    <title>
+      <key>ru</key>
+      <value>Номер телефона организации</value>
+    </title>
+    <id>21</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>EmailОрганизации</name>
+    <title>
+      <key>ru</key>
+      <value>Email организации</value>
+    </title>
+    <id>22</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>НайтиПользователяВTeklifo</name>
     <title>
