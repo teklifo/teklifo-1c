@@ -63,8 +63,11 @@
   <commonModules>CommonModule.TK_ИнтеграцияСTeklifoКлиент</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.TK_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.TK_ПроведениеДокументов</commonModules>
   <commonModules>CommonModule.TK_РаботаСJSONВызовСервера</commonModules>
   <commonModules>CommonModule.TK_РаботаСУведомлениямиTeklifo</commonModules>
+  <commonModules>CommonModule.TKУчетныйМеханизмСервер</commonModules>
+  <commonModules>CommonModule.ПроведениеДокументов</commonModules>
   <commonModules>CommonModule.СозданиеНаОснованииПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.ЗаполнитьРеквизитыОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОчиститьОтветственногоВДокументах</eventSubscriptions>
@@ -98,6 +101,7 @@
   <enums>Enum.СтатусыДействияВидовЦен</enums>
   <enums>Enum.ЮрФизЛицо</enums>
   <dataProcessors>DataProcessor.TK_ИнтеграцияСTeklifo</dataProcessors>
+  <informationRegisters>InformationRegister.TK_ДанныеКоммерческихПредложенийОтПоставщика</informationRegisters>
   <informationRegisters>InformationRegister.TK_ЗапросыЦенПоставщикамНаTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_КоммерческиеПредложенияКлиентамНаTeklifo</informationRegisters>
   <informationRegisters>InformationRegister.TK_СоответствиеНоменклатурыTeklifo</informationRegisters>
