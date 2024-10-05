@@ -95,6 +95,7 @@
   <documents>Document.TK_ЗапросЦенПоставщикам</documents>
   <documents>Document.TK_КоммерческоеПредложениеКлиенту</documents>
   <documents>Document.TK_КоммерческоеПредложениеОтПоставщика</documents>
+  <documents>Document.ЗаказПоставщику</documents>
   <enums>Enum.TK_СтатусыПубликацииДокументовНаTeklifo</enums>
   <enums>Enum.TK_ТипыЗапросовЦен</enums>
   <enums>Enum.КомпанияЧастноеЛицо</enums>

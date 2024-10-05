@@ -805,6 +805,36 @@
           <representationInContextMenu>Auto</representationInContextMenu>
           <locationInCommandBar>InCommandBar</locationInCommandBar>
         </items>
+        <items xsi:type="form:Button">
+          <name>ПодобранныеПозицииКомандаСоздатьЗаказыПоставщикам</name>
+          <id>63</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПодобранныеПозицииКомандаСоздатьЗаказыПоставщикамРасширеннаяПодсказка</name>
+            <id>64</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.КомандаСоздатьЗаказыПоставщикам</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1286,6 +1316,23 @@
       </edit>
     </columns>
   </attributes>
+  <formCommands>
+    <name>КомандаСоздатьЗаказыПоставщикам</name>
+    <title>
+      <key>ru</key>
+      <value>Создать заказы поставщикам</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаСоздатьЗаказыПоставщикам</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
