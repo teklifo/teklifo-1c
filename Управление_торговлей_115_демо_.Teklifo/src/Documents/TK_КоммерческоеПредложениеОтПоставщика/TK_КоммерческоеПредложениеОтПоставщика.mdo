@@ -30,6 +30,7 @@
   <defaultListForm>Document.TK_КоммерческоеПредложениеОтПоставщика.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.TK_ДанныеКоммерческихПредложенийОтПоставщика</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7af0daeb-24ff-4787-8bbe-ea840ee0abf7">

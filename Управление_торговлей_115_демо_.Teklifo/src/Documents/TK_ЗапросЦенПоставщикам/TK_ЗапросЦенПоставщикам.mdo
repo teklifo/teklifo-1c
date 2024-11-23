@@ -32,6 +32,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.TK_ЗапросЦенПоставщикам.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.TK_ЗапросЦенПоставщикам.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.TK_ЗапросЦенПоставщикам.Form.ФормаВыбораПозицийПоЗаказу</defaultChoiceForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -330,6 +331,15 @@
     <synonym>
       <key>ru</key>
       <value>Результат выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b6e3a4a-2f9a-4dbc-a3e1-f663575fdd5a">
+    <name>ФормаВыбораПозицийПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор позиций по заказу</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
