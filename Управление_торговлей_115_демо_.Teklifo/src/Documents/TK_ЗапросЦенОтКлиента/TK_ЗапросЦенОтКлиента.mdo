@@ -232,6 +232,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5f4a5169-dd7e-4b2b-955d-aa16a6ec2bfc">
+    <name>ВремяКонечнойДатыСбораПредложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время конечной даты сбора предложений</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="b272366b-8af6-4799-a1ef-adaedf9c833c">
     <name>ТекстовоеОписание</name>
     <synonym>
