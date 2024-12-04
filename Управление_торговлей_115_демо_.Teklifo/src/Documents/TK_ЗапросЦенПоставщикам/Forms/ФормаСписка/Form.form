@@ -428,57 +428,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>НачальнаяДатаСбораПредложений</name>
-      <id>54</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.НачальнаяДатаСбораПредложений</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>НачальнаяДатаСбораПредложенийРасширеннаяПодсказка</name>
-        <id>56</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>НачальнаяДатаСбораПредложенийКонтекстноеМеню</name>
-        <id>55</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <width>16</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>КонечнаяДатаСбораПредложений</name>
       <id>57</id>
       <visible>true</visible>
@@ -521,6 +470,60 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <width>16</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ВремяКонечнойДатыСбораПредложений</name>
+      <id>118</id>
+      <title>
+        <key>ru</key>
+        <value>Время</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ВремяКонечнойДатыСбораПредложений</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ВремяКонечнойДатыСбораПредложенийРасширеннаяПодсказка</name>
+        <id>120</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ВремяКонечнойДатыСбораПредложенийКонтекстноеМеню</name>
+        <id>119</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -1246,8 +1249,8 @@
 	ЗапросЦенПоставщикам.Заголовок КАК Заголовок,
 	ЗапросЦенПоставщикам.Менеджер КАК Менеджер,
 	ЗапросЦенПоставщикам.Валюта КАК Валюта,
-	ЗапросЦенПоставщикам.НачальнаяДатаСбораПредложений КАК НачальнаяДатаСбораПредложений,
 	ЗапросЦенПоставщикам.КонечнаяДатаСбораПредложений КАК КонечнаяДатаСбораПредложений,
+	ЗапросЦенПоставщикам.ВремяКонечнойДатыСбораПредложений,
 	ЗапросЦенПоставщикам.ТипЗапроса КАК ТипЗапроса,
 	ЗапросЦенПоставщикам.Комментарий КАК Комментарий,
 	ЕСТЬNULL(СтатусыПубликации.Статус, ЗНАЧЕНИЕ(Перечисление.TK_СтатусыПубликацииДокументовНаTeklifo.НеОпубликован)) КАК
@@ -1304,10 +1307,6 @@
         <field>Менеджер</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>НачальнаяДатаСбораПредложений</dataPath>
-        <field>НачальнаяДатаСбораПредложений</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КонечнаяДатаСбораПредложений</dataPath>
         <field>КонечнаяДатаСбораПредложений</field>
       </fields>
@@ -1332,6 +1331,10 @@
         <field>Комментарий</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВремяКонечнойДатыСбораПредложений</dataPath>
+        <field>ВремяКонечнойДатыСбораПредложений</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ТекстовоеОписание</dataPath>
         <field>ТекстовоеОписание</field>
       </fields>
@@ -1346,6 +1349,18 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КомментарийКУсловиямОплаты</dataPath>
         <field>КомментарийКУсловиямОплаты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяКонтактногоЛица</dataPath>
+        <field>ИмяКонтактногоЛица</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерТелефона</dataPath>
+        <field>НомерТелефона</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Email</dataPath>
+        <field>Email</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Товары</dataPath>

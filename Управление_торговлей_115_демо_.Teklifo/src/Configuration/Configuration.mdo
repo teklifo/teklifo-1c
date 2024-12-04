@@ -66,15 +66,17 @@
   <commonModules>CommonModule.TK_ПроведениеДокументов</commonModules>
   <commonModules>CommonModule.TK_РаботаСJSONВызовСервера</commonModules>
   <commonModules>CommonModule.TK_РаботаСУведомлениямиTeklifo</commonModules>
-  <commonModules>CommonModule.TKУчетныйМеханизмСервер</commonModules>
+  <commonModules>CommonModule.TK_УчетныйМеханизмСервер</commonModules>
   <commonModules>CommonModule.ПроведениеДокументов</commonModules>
   <commonModules>CommonModule.СозданиеНаОснованииПереопределяемый</commonModules>
   <eventSubscriptions>EventSubscription.ЗаполнитьРеквизитыОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОчиститьОтветственногоВДокументах</eventSubscriptions>
   <scheduledJobs>ScheduledJob.TK_ОбменДаннымиСTeklifo</scheduledJobs>
   <definedTypes>DefinedType.ВладелецНоменклатурыБЭД</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ИНН</definedTypes>
   <definedTypes>DefinedType.УпаковкаНоменклатурыБЭД</definedTypes>
+  <definedTypes>DefinedType.Цена</definedTypes>
   <constants>Constant.ИспользоватьПартнеровИКонтрагентов</constants>
   <catalogs>Catalog.TK_УведомленияИнтеграцииСTeklifo</catalogs>
   <catalogs>Catalog.TK_УчетныеЗаписиTeklfio</catalogs>
