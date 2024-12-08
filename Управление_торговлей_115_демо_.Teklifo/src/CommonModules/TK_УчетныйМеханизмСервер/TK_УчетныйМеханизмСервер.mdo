@@ -3,7 +3,7 @@
   <name>TK_УчетныйМеханизмСервер</name>
   <synonym>
     <key>ru</key>
-    <value>T k учетный механизм сервер</value>
+    <value>TK учетный механизм сервер</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
